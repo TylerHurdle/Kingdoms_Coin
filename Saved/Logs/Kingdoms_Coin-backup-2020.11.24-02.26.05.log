@@ -1,0 +1,1730 @@
+﻿Log file open, 11/23/20 16:40:01
+LogInit: Display: Running engine for game: Kingdoms_Coin
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 11 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.239342
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: -6:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CameraShakePreviewer
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin AnimationSharing
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin PlasticSourceControl
+LogPluginManager: Mounting plugin RiderSourceCodeAccess
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin CurveEditorTools
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin EditorScriptingUtilities
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin GeometryMode
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MaterialAnalyzer
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AutomationUtils
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin ChaosCloth
+LogPluginManager: Mounting plugin ChaosClothEditor
+LogPluginManager: Mounting plugin ChaosEditor
+LogPluginManager: Mounting plugin ChaosNiagara
+LogPluginManager: Mounting plugin ChaosSolverPlugin
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin GeometryCollectionPlugin
+LogPluginManager: Mounting plugin GeometryProcessing
+LogPluginManager: Mounting plugin PlanarCut
+LogPluginManager: Mounting plugin PlatformCrypto
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin SkeletalReduction
+LogPluginManager: Mounting plugin Niagara
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapLightEstimation
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin MagicLeapPassableWorld
+LogPluginManager: Mounting plugin MLSDK
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin MeshPainting
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin MovieRenderPipeline
+LogPluginManager: Mounting plugin TemplateSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AssetTags
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin GooglePAD
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin PostSplashScreen
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SignificanceManager
+LogPluginManager: Mounting plugin SoundFields
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin Synthesis
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogPluginManager: Mounting plugin ScreenshotTools
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.1.1
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogOnline: OSS: Creating online subsystem instance for: NULL
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+LogInit: Build: ++UE4+Release-4.25-CL-14469661
+LogInit: Engine Version: 4.25.4-14469661+++UE4+Release-4.25
+LogInit: Compatible Engine Version: 4.25.0-13144385+++UE4+Release-4.25
+LogInit: Net CL: 13144385
+LogInit: OS: Windows 10 (Release 1909) (), CPU: Intel(R) Core(TM) i7-6600U CPU @ 2.60GHz, GPU: Intel(R) HD Graphics 520
+LogInit: Compiled (64-bit): Oct 11 2020 08:10:49
+LogInit: Compiled with Visual C++: 19.24.28315.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.25
+LogInit: Command Line: 
+LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.25/Engine/Binaries/Win64/
+LogInit: Allocator: TBB
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 26
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 4
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 38
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 37
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 4
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 43
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 12
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 3
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 7
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 31
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 10
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 10
+LogDevObjectVersion:   Dev-Physics-Ext (35F94A83-E258-406C-A318-09F59610247C): 37
+LogDevObjectVersion:   Dev-PhysicsMaterial-Chaos (B68FC16E-8B1B-42E2-B453-215C058844FE): 1
+LogDevObjectVersion:   Dev-CineCamera (B2E18506-4273-CFC2-A54E-F4BB758BBA07): 1
+LogInit: Presizing for max 25165824 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Kingdoms_Coin/Saved/Config/Windows/Engine.ini]
+LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2020.11.23-22.40.02:202][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2020.11.23-22.40.02:202][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2020.11.23-22.40.02:202][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Kingdoms_Coin/Saved/Config/Windows/Engine.ini]
+[2020.11.23-22.40.02:202][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2020.11.23-22.40.02:202][  0]LogConfig: Setting CVar [[r.Mobile.DisableVertexFog:1]]
+[2020.11.23-22.40.02:202][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxMobileCascades:2]]
+[2020.11.23-22.40.02:202][  0]LogConfig: Setting CVar [[r.MobileMSAA:1]]
+[2020.11.23-22.40.02:202][  0]LogConfig: Setting CVar [[r.Mobile.UseLegacyShadingModel:0]]
+[2020.11.23-22.40.02:202][  0]LogConfig: Setting CVar [[r.Mobile.AllowDitheredLODTransition:0]]
+[2020.11.23-22.40.02:202][  0]LogConfig: Setting CVar [[r.Mobile.AllowSoftwareOcclusion:0]]
+[2020.11.23-22.40.02:203][  0]LogConfig: Setting CVar [[r.Mobile.VirtualTextures:0]]
+[2020.11.23-22.40.02:203][  0]LogConfig: Setting CVar [[r.DiscardUnusedQuality:0]]
+[2020.11.23-22.40.02:203][  0]LogConfig: Setting CVar [[r.AllowOcclusionQueries:1]]
+[2020.11.23-22.40.02:203][  0]LogConfig: Setting CVar [[r.MinScreenRadiusForLights:0.030000]]
+[2020.11.23-22.40.02:203][  0]LogConfig: Setting CVar [[r.MinScreenRadiusForDepthPrepass:0.030000]]
+[2020.11.23-22.40.02:203][  0]LogConfig: Setting CVar [[r.MinScreenRadiusForCSMDepth:0.010000]]
+[2020.11.23-22.40.02:203][  0]LogConfig: Setting CVar [[r.PrecomputedVisibilityWarning:0]]
+[2020.11.23-22.40.02:203][  0]LogConfig: Setting CVar [[r.TextureStreaming:1]]
+[2020.11.23-22.40.02:203][  0]LogConfig: Setting CVar [[Compat.UseDXT5NormalMaps:0]]
+[2020.11.23-22.40.02:203][  0]LogConfig: Setting CVar [[r.VirtualTextures:0]]
+[2020.11.23-22.40.02:203][  0]LogConfig: Setting CVar [[r.VirtualTexturedLightmaps:0]]
+[2020.11.23-22.40.02:203][  0]LogConfig: Setting CVar [[r.VT.TileSize:128]]
+[2020.11.23-22.40.02:203][  0]LogConfig: Setting CVar [[r.VT.TileBorderSize:4]]
+[2020.11.23-22.40.02:203][  0]LogConfig: Setting CVar [[r.vt.FeedbackFactor:16]]
+[2020.11.23-22.40.02:203][  0]LogConfig: Setting CVar [[r.VT.EnableCompressZlib:1]]
+[2020.11.23-22.40.02:203][  0]LogConfig: Setting CVar [[r.VT.EnableCompressCrunch:0]]
+[2020.11.23-22.40.02:203][  0]LogConfig: Setting CVar [[r.ClearCoatNormal:0]]
+[2020.11.23-22.40.02:203][  0]LogConfig: Setting CVar [[r.AnisotropicBRDF:0]]
+[2020.11.23-22.40.02:203][  0]LogConfig: Setting CVar [[r.ReflectionCaptureResolution:128]]
+[2020.11.23-22.40.02:203][  0]LogConfig: Setting CVar [[r.ReflectionEnvironmentLightmapMixBasedOnRoughness:1]]
+[2020.11.23-22.40.02:203][  0]LogConfig: Setting CVar [[r.ForwardShading:0]]
+[2020.11.23-22.40.02:203][  0]LogConfig: Setting CVar [[r.VertexFoggingForOpaque:1]]
+[2020.11.23-22.40.02:203][  0]LogConfig: Setting CVar [[r.AllowStaticLighting:1]]
+[2020.11.23-22.40.02:203][  0]LogConfig: Setting CVar [[r.NormalMapsForStaticLighting:0]]
+[2020.11.23-22.40.02:203][  0]LogConfig: Setting CVar [[r.GenerateMeshDistanceFields:0]]
+[2020.11.23-22.40.02:203][  0]LogConfig: Setting CVar [[r.DistanceFieldBuild.EightBit:0]]
+[2020.11.23-22.40.02:203][  0]LogConfig: Setting CVar [[r.GenerateLandscapeGIData:0]]
+[2020.11.23-22.40.02:203][  0]LogConfig: Setting CVar [[r.DistanceFieldBuild.Compress:0]]
+[2020.11.23-22.40.02:203][  0]LogConfig: Setting CVar [[r.TessellationAdaptivePixelsPerTriangle:48.000000]]
+[2020.11.23-22.40.02:203][  0]LogConfig: Setting CVar [[r.SeparateTranslucency:0]]
+[2020.11.23-22.40.02:203][  0]LogConfig: Setting CVar [[r.TranslucentSortPolicy:0]]
+[2020.11.23-22.40.02:203][  0]LogConfig: Setting CVar [[r.CustomDepth:1]]
+[2020.11.23-22.40.02:203][  0]LogConfig: Setting CVar [[r.CustomDepthTemporalAAJitter:1]]
+[2020.11.23-22.40.02:203][  0]LogConfig: Setting CVar [[r.PostProcessing.PropagateAlpha:0]]
+[2020.11.23-22.40.02:203][  0]LogConfig: Setting CVar [[r.DefaultFeature.Bloom:0]]
+[2020.11.23-22.40.02:203][  0]LogConfig: Setting CVar [[r.DefaultFeature.AmbientOcclusion:0]]
+[2020.11.23-22.40.02:203][  0]LogConfig: Setting CVar [[r.DefaultFeature.AmbientOcclusionStaticFraction:1]]
+[2020.11.23-22.40.02:203][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure:0]]
+[2020.11.23-22.40.02:203][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure.Method:0]]
+[2020.11.23-22.40.02:203][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure.Bias:1.000000]]
+[2020.11.23-22.40.02:203][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure.ExtendDefaultLuminanceRange:0]]
+[2020.11.23-22.40.02:203][  0]LogConfig: Setting CVar [[r.UsePreExposure:1]]
+[2020.11.23-22.40.02:203][  0]LogConfig: Setting CVar [[r.EyeAdaptation.EditorOnly:0]]
+[2020.11.23-22.40.02:203][  0]LogConfig: Setting CVar [[r.DefaultFeature.MotionBlur:0]]
+[2020.11.23-22.40.02:203][  0]LogConfig: Setting CVar [[r.DefaultFeature.LensFlare:0]]
+[2020.11.23-22.40.02:203][  0]LogConfig: Setting CVar [[r.TemporalAA.Upsampling:0]]
+[2020.11.23-22.40.02:203][  0]LogConfig: Setting CVar [[r.SSGI.Enable:0]]
+[2020.11.23-22.40.02:203][  0]LogConfig: Setting CVar [[r.DefaultFeature.AntiAliasing:0]]
+[2020.11.23-22.40.02:203][  0]LogConfig: Setting CVar [[r.DefaultFeature.LightUnits:1]]
+[2020.11.23-22.40.02:203][  0]LogConfig: Setting CVar [[r.DefaultBackBufferPixelFormat:4]]
+[2020.11.23-22.40.02:203][  0]LogConfig: Setting CVar [[r.Shadow.UnbuiltPreviewInGame:1]]
+[2020.11.23-22.40.02:203][  0]LogConfig: Setting CVar [[r.StencilForLODDither:0]]
+[2020.11.23-22.40.02:203][  0]LogConfig: Setting CVar [[r.EarlyZPass:3]]
+[2020.11.23-22.40.02:204][  0]LogConfig: Setting CVar [[r.EarlyZPassOnlyMaterialMasking:0]]
+[2020.11.23-22.40.02:204][  0]LogConfig: Setting CVar [[r.DBuffer:1]]
+[2020.11.23-22.40.02:204][  0]LogConfig: Setting CVar [[r.ClearSceneMethod:1]]
+[2020.11.23-22.40.02:204][  0]LogConfig: Setting CVar [[r.BasePassOutputsVelocity:0]]
+[2020.11.23-22.40.02:204][  0]LogConfig: Setting CVar [[r.VertexDeformationOutputsVelocity:0]]
+[2020.11.23-22.40.02:204][  0]LogConfig: Setting CVar [[r.SelectiveBasePassOutputs:0]]
+[2020.11.23-22.40.02:204][  0]LogConfig: Setting CVar [[fx.GPUSimulationTextureSizeX:1024]]
+[2020.11.23-22.40.02:204][  0]LogConfig: Setting CVar [[fx.GPUSimulationTextureSizeY:1024]]
+[2020.11.23-22.40.02:204][  0]LogConfig: Setting CVar [[r.AllowGlobalClipPlane:0]]
+[2020.11.23-22.40.02:204][  0]LogConfig: Setting CVar [[r.GBufferFormat:1]]
+[2020.11.23-22.40.02:204][  0]LogConfig: Setting CVar [[r.MorphTarget.Mode:1]]
+[2020.11.23-22.40.02:204][  0]LogConfig: Setting CVar [[vr.InstancedStereo:0]]
+[2020.11.23-22.40.02:204][  0]LogConfig: Setting CVar [[r.MobileHDR:1]]
+[2020.11.23-22.40.02:204][  0]LogConfig: Setting CVar [[vr.MobileMultiView:0]]
+[2020.11.23-22.40.02:204][  0]LogConfig: Setting CVar [[r.Mobile.UseHWsRGBEncoding:0]]
+[2020.11.23-22.40.02:204][  0]LogConfig: Setting CVar [[vr.RoundRobinOcclusion:0]]
+[2020.11.23-22.40.02:204][  0]LogConfig: Setting CVar [[vr.ODSCapture:0]]
+[2020.11.23-22.40.02:204][  0]LogConfig: Setting CVar [[r.MeshStreaming:0]]
+[2020.11.23-22.40.02:204][  0]LogConfig: Setting CVar [[r.WireframeCullThreshold:5.000000]]
+[2020.11.23-22.40.02:204][  0]LogConfig: Setting CVar [[r.RayTracing:0]]
+[2020.11.23-22.40.02:204][  0]LogConfig: Setting CVar [[r.RayTracing.UseTextureLod:0]]
+[2020.11.23-22.40.02:204][  0]LogConfig: Setting CVar [[r.SupportStationarySkylight:1]]
+[2020.11.23-22.40.02:204][  0]LogConfig: Setting CVar [[r.SupportLowQualityLightmaps:1]]
+[2020.11.23-22.40.02:204][  0]LogConfig: Setting CVar [[r.SupportPointLightWholeSceneShadows:1]]
+[2020.11.23-22.40.02:204][  0]LogConfig: Setting CVar [[r.SupportAtmosphericFog:1]]
+[2020.11.23-22.40.02:204][  0]LogConfig: Setting CVar [[r.SupportSkyAtmosphere:1]]
+[2020.11.23-22.40.02:204][  0]LogConfig: Setting CVar [[r.SupportSkyAtmosphereAffectsHeightFog:0]]
+[2020.11.23-22.40.02:204][  0]LogConfig: Setting CVar [[r.SkinCache.CompileShaders:0]]
+[2020.11.23-22.40.02:204][  0]LogConfig: Setting CVar [[r.SkinCache.DefaultBehavior:1]]
+[2020.11.23-22.40.02:204][  0]LogConfig: Setting CVar [[r.SkinCache.SceneMemoryLimitInMB:128.000000]]
+[2020.11.23-22.40.02:204][  0]LogConfig: Setting CVar [[r.Mobile.EnableStaticAndCSMShadowReceivers:1]]
+[2020.11.23-22.40.02:204][  0]LogConfig: Setting CVar [[r.Mobile.EnableMovableLightCSMShaderCulling:1]]
+[2020.11.23-22.40.02:204][  0]LogConfig: Setting CVar [[r.Mobile.AllowDistanceFieldShadows:1]]
+[2020.11.23-22.40.02:204][  0]LogConfig: Setting CVar [[r.Mobile.AllowMovableDirectionalLights:1]]
+[2020.11.23-22.40.02:204][  0]LogConfig: Setting CVar [[r.MobileNumDynamicPointLights:4]]
+[2020.11.23-22.40.02:204][  0]LogConfig: Setting CVar [[r.MobileDynamicPointLightsUseStaticBranch:1]]
+[2020.11.23-22.40.02:204][  0]LogConfig: Setting CVar [[r.Mobile.EnableMovableSpotlights:0]]
+[2020.11.23-22.40.02:204][  0]LogConfig: Setting CVar [[r.GPUSkin.Support16BitBoneIndex:0]]
+[2020.11.23-22.40.02:204][  0]LogConfig: Setting CVar [[r.GPUSkin.Limit2BoneInfluences:0]]
+[2020.11.23-22.40.02:204][  0]LogConfig: Setting CVar [[r.SupportDepthOnlyIndexBuffers:1]]
+[2020.11.23-22.40.02:204][  0]LogConfig: Setting CVar [[r.SupportReversedIndexBuffers:1]]
+[2020.11.23-22.40.02:204][  0]LogConfig: Setting CVar [[r.SupportMaterialLayers:0]]
+[2020.11.23-22.40.02:204][  0]LogConfig: Setting CVar [[r.LightPropagationVolume:0]]
+[2020.11.23-22.40.02:204][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Kingdoms_Coin/Saved/Config/Windows/Engine.ini]
+[2020.11.23-22.40.02:204][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Kingdoms_Coin/Saved/Config/Windows/Engine.ini]
+[2020.11.23-22.40.02:204][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2020.11.23-22.40.02:204][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2020.11.23-22.40.02:204][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2020.11.23-22.40.02:204][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2020.11.23-22.40.02:204][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2020.11.23-22.40.02:204][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2020.11.23-22.40.02:204][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2020.11.23-22.40.02:204][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2020.11.23-22.40.02:204][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2020.11.23-22.40.02:204][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2020.11.23-22.40.02:204][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2020.11.23-22.40.02:204][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2020.11.23-22.40.02:204][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2020.11.23-22.40.02:204][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+[2020.11.23-22.40.02:204][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Kingdoms_Coin/Saved/Config/Windows/Engine.ini]
+[2020.11.23-22.40.02:204][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2020.11.23-22.40.02:204][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2020.11.23-22.40.02:205][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2020.11.23-22.40.02:205][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2020.11.23-22.40.02:205][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2020.11.23-22.40.02:205][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2020.11.23-22.40.02:205][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
+[2020.11.23-22.40.02:205][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2020.11.23-22.40.02:205][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2020.11.23-22.40.02:205][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2020.11.23-22.40.02:205][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2020.11.23-22.40.02:205][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2020.11.23-22.40.02:205][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2020.11.23-22.40.02:205][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Kingdoms_Coin/Saved/Config/Windows/Engine.ini]
+[2020.11.23-22.40.02:205][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Kingdoms_Coin/Saved/Config/Windows/Engine.ini]
+[2020.11.23-22.40.02:208][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Kingdoms_Coin/Saved/Config/Windows/Scalability.ini]
+[2020.11.23-22.40.02:208][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.11.23-22.40.02:208][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.11.23-22.40.02:208][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Kingdoms_Coin/Saved/Config/Windows/Scalability.ini]
+[2020.11.23-22.40.02:208][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.11.23-22.40.02:208][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Kingdoms_Coin/Saved/Config/Windows/Scalability.ini]
+[2020.11.23-22.40.02:208][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.11.23-22.40.02:208][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.11.23-22.40.02:208][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.11.23-22.40.02:208][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.11.23-22.40.02:208][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.11.23-22.40.02:209][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.11.23-22.40.02:209][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.11.23-22.40.02:209][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.11.23-22.40.02:209][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.11.23-22.40.02:209][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.11.23-22.40.02:209][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.11.23-22.40.02:209][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.11.23-22.40.02:209][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.11.23-22.40.02:209][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.11.23-22.40.02:209][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.11.23-22.40.02:209][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.11.23-22.40.02:209][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.11.23-22.40.02:209][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.11.23-22.40.02:209][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Kingdoms_Coin/Saved/Config/Windows/Scalability.ini]
+[2020.11.23-22.40.02:209][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.11.23-22.40.02:209][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.11.23-22.40.02:209][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.11.23-22.40.02:209][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.11.23-22.40.02:209][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.11.23-22.40.02:209][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.11.23-22.40.02:209][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.11.23-22.40.02:209][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.11.23-22.40.02:209][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.11.23-22.40.02:209][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.11.23-22.40.02:209][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.11.23-22.40.02:209][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.11.23-22.40.02:209][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.11.23-22.40.02:209][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.11.23-22.40.02:209][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.11.23-22.40.02:209][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.11.23-22.40.02:209][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.11.23-22.40.02:209][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.11.23-22.40.02:209][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.11.23-22.40.02:209][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.11.23-22.40.02:209][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.11.23-22.40.02:209][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.11.23-22.40.02:209][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.11.23-22.40.02:209][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.11.23-22.40.02:209][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.11.23-22.40.02:209][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.11.23-22.40.02:209][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.11.23-22.40.02:209][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.11.23-22.40.02:209][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.11.23-22.40.02:209][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.11.23-22.40.02:209][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Kingdoms_Coin/Saved/Config/Windows/Scalability.ini]
+[2020.11.23-22.40.02:209][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.11.23-22.40.02:209][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.11.23-22.40.02:209][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.11.23-22.40.02:209][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.11.23-22.40.02:209][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.11.23-22.40.02:209][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2020.11.23-22.40.02:209][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.11.23-22.40.02:209][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.11.23-22.40.02:209][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.11.23-22.40.02:209][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Kingdoms_Coin/Saved/Config/Windows/Scalability.ini]
+[2020.11.23-22.40.02:209][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.11.23-22.40.02:209][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.11.23-22.40.02:209][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.11.23-22.40.02:209][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2020.11.23-22.40.02:209][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.11.23-22.40.02:209][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.11.23-22.40.02:209][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.11.23-22.40.02:209][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.11.23-22.40.02:209][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.11.23-22.40.02:210][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.11.23-22.40.02:210][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.11.23-22.40.02:210][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2020.11.23-22.40.02:210][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2020.11.23-22.40.02:210][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.11.23-22.40.02:210][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.11.23-22.40.02:210][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2020.11.23-22.40.02:210][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2020.11.23-22.40.02:210][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2020.11.23-22.40.02:210][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2020.11.23-22.40.02:210][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2020.11.23-22.40.02:210][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2020.11.23-22.40.02:210][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2020.11.23-22.40.02:210][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2020.11.23-22.40.02:210][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2020.11.23-22.40.02:210][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2020.11.23-22.40.02:210][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2020.11.23-22.40.02:210][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Kingdoms_Coin/Saved/Config/Windows/Scalability.ini]
+[2020.11.23-22.40.02:210][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.11.23-22.40.02:210][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.11.23-22.40.02:210][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Kingdoms_Coin/Saved/Config/Windows/Scalability.ini]
+[2020.11.23-22.40.02:210][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2020.11.23-22.40.02:210][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2020.11.23-22.40.02:210][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2020.11.23-22.40.02:210][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2020.11.23-22.40.02:210][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2020.11.23-22.40.02:210][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2020.11.23-22.40.02:210][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2020.11.23-22.40.02:210][  0]LogInit: Selected Device Profile: [Windows]
+[2020.11.23-22.40.02:210][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2020.11.23-22.40.02:210][  0]LogHAL: Display: Platform has ~ 8 GB [8507662336 / 8589934592 / 8], which maps to Default [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2020.11.23-22.40.02:210][  0]LogInit: Going up to parent DeviceProfile []
+[2020.11.23-22.40.02:210][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@0] File [C:/Kingdoms_Coin/Saved/Config/Windows/Scalability.ini]
+[2020.11.23-22.40.02:210][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:2]]
+[2020.11.23-22.40.02:210][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:0.4]]
+[2020.11.23-22.40.02:210][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@0] File [C:/Kingdoms_Coin/Saved/Config/Windows/Scalability.ini]
+[2020.11.23-22.40.02:210][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:0]]
+[2020.11.23-22.40.02:210][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@0] File [C:/Kingdoms_Coin/Saved/Config/Windows/Scalability.ini]
+[2020.11.23-22.40.02:210][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:0]]
+[2020.11.23-22.40.02:210][  0]LogConfig: Setting CVar [[r.ShadowQuality:0]]
+[2020.11.23-22.40.02:210][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:1]]
+[2020.11.23-22.40.02:210][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:512]]
+[2020.11.23-22.40.02:210][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:512]]
+[2020.11.23-22.40.02:210][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.06]]
+[2020.11.23-22.40.02:210][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:0.6]]
+[2020.11.23-22.40.02:210][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:0]]
+[2020.11.23-22.40.02:210][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:0.5]]
+[2020.11.23-22.40.02:210][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:0]]
+[2020.11.23-22.40.02:210][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:0]]
+[2020.11.23-22.40.02:210][  0]LogConfig: Setting CVar [[r.VolumetricFog:0]]
+[2020.11.23-22.40.02:210][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:0]]
+[2020.11.23-22.40.02:210][  0]LogConfig: Setting CVar [[r.CapsuleShadows:0]]
+[2020.11.23-22.40.02:210][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@0] File [C:/Kingdoms_Coin/Saved/Config/Windows/Scalability.ini]
+[2020.11.23-22.40.02:210][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:0]]
+[2020.11.23-22.40.02:210][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:1.0]]
+[2020.11.23-22.40.02:211][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:0]]
+[2020.11.23-22.40.02:211][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:0]]
+[2020.11.23-22.40.02:211][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.2]]
+[2020.11.23-22.40.02:211][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:0]]
+[2020.11.23-22.40.02:211][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:300]]
+[2020.11.23-22.40.02:211][  0]LogConfig: Setting CVar [[r.LensFlareQuality:0]]
+[2020.11.23-22.40.02:211][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:0]]
+[2020.11.23-22.40.02:211][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:0]]
+[2020.11.23-22.40.02:211][  0]LogConfig: Setting CVar [[r.BloomQuality:4]]
+[2020.11.23-22.40.02:211][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:0]]
+[2020.11.23-22.40.02:211][  0]LogConfig: Setting CVar [[r.Upscale.Quality:1]]
+[2020.11.23-22.40.02:211][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:0]]
+[2020.11.23-22.40.02:211][  0]LogConfig: Setting CVar [[r.LightShaftQuality:0]]
+[2020.11.23-22.40.02:211][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:0.6]]
+[2020.11.23-22.40.02:211][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:0]]
+[2020.11.23-22.40.02:211][  0]LogConfig: Applying CVar settings from Section [TextureQuality@0] File [C:/Kingdoms_Coin/Saved/Config/Windows/Scalability.ini]
+[2020.11.23-22.40.02:211][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:16]]
+[2020.11.23-22.40.02:211][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:1]]
+[2020.11.23-22.40.02:211][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:1]]
+[2020.11.23-22.40.02:211][  0]LogConfig: Setting CVar [[r.Streaming.Boost:0.3]]
+[2020.11.23-22.40.02:211][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:0]]
+[2020.11.23-22.40.02:211][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:4]]
+[2020.11.23-22.40.02:211][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:1]]
+[2020.11.23-22.40.02:211][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:400]]
+[2020.11.23-22.40.02:211][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.11.23-22.40.02:211][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@0] File [C:/Kingdoms_Coin/Saved/Config/Windows/Scalability.ini]
+[2020.11.23-22.40.02:211][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:24]]
+[2020.11.23-22.40.02:211][  0]LogConfig: Setting CVar [[r.RefractionQuality:0]]
+[2020.11.23-22.40.02:211][  0]LogConfig: Setting CVar [[r.SSR.Quality:0]]
+[2020.11.23-22.40.02:211][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:1]]
+[2020.11.23-22.40.02:211][  0]LogConfig: Setting CVar [[r.SceneColorFormat:3]]
+[2020.11.23-22.40.02:211][  0]LogConfig: Setting CVar [[r.DetailMode:0]]
+[2020.11.23-22.40.02:211][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:0]]
+[2020.11.23-22.40.02:211][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:0 ; Low quality]]
+[2020.11.23-22.40.02:211][  0]LogConfig: Setting CVar [[r.SSS.Scale:0]]
+[2020.11.23-22.40.02:211][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:0]]
+[2020.11.23-22.40.02:211][  0]LogConfig: Setting CVar [[r.SSS.Quality:0]]
+[2020.11.23-22.40.02:211][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2020.11.23-22.40.02:211][  0]LogConfig: Setting CVar [[r.SSGI.Quality:0]]
+[2020.11.23-22.40.02:211][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:0.125]]
+[2020.11.23-22.40.02:211][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:0]]
+[2020.11.23-22.40.02:211][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2020.11.23-22.40.02:211][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2020.11.23-22.40.02:211][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:8.0]]
+[2020.11.23-22.40.02:211][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2020.11.23-22.40.02:211][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:2.0]]
+[2020.11.23-22.40.02:211][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:16.0]]
+[2020.11.23-22.40.02:211][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:2.0]]
+[2020.11.23-22.40.02:211][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:16.0]]
+[2020.11.23-22.40.02:211][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:1]]
+[2020.11.23-22.40.02:211][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2020.11.23-22.40.02:211][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2020.11.23-22.40.02:211][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@0] File [C:/Kingdoms_Coin/Saved/Config/Windows/Scalability.ini]
+[2020.11.23-22.40.02:211][  0]LogConfig: Setting CVar [[foliage.DensityScale:0]]
+[2020.11.23-22.40.02:211][  0]LogConfig: Setting CVar [[grass.DensityScale:0]]
+[2020.11.23-22.40.02:211][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@0] File [C:/Kingdoms_Coin/Saved/Config/Windows/Scalability.ini]
+[2020.11.23-22.40.02:211][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:8]]
+[2020.11.23-22.40.02:211][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2020.11.23-22.40.02:211][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:8]]
+[2020.11.23-22.40.02:211][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2020.11.23-22.40.02:211][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2020.11.23-22.40.02:211][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2020.11.23-22.40.02:211][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2020.11.23-22.40.02:211][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2020.11.23-22.40.02:212][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2020.11.23-22.40.02:212][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2020.11.23-22.40.02:212][  0]LogConfig: Setting CVar [[fx.SkipVectorVMBackendOptimizations:1]]
+[2020.11.23-22.40.02:212][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Kingdoms_Coin/Saved/Config/Windows/Engine.ini]
+[2020.11.23-22.40.02:212][  0]LogInit: Computer: DESKTOP-HC83JEK
+[2020.11.23-22.40.02:212][  0]LogInit: User: NewUser
+[2020.11.23-22.40.02:212][  0]LogInit: CPU Page size=4096, Cores=2
+[2020.11.23-22.40.02:212][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2020.11.23-22.40.02:212][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2020.11.23-22.40.02:212][  0]LogMemory: Platform Memory Stats for Windows
+[2020.11.23-22.40.02:212][  0]LogMemory: Process Physical Memory: 112.67 MB used, 112.67 MB peak
+[2020.11.23-22.40.02:212][  0]LogMemory: Process Virtual Memory: 94.91 MB used, 94.91 MB peak
+[2020.11.23-22.40.02:212][  0]LogMemory: Physical Memory: 4954.84 MB used,  3158.70 MB free, 8113.54 MB total
+[2020.11.23-22.40.02:212][  0]LogMemory: Virtual Memory: 5122.74 MB used,  134212608.00 MB free, 134217728.00 MB total
+[2020.11.23-22.40.02:218][  0]LogWindows: WindowsPlatformFeatures enabled
+[2020.11.23-22.40.02:254][  0]LogInit: Physics initialised using underlying interface: PhysX
+[2020.11.23-22.40.02:255][  0]LogInit: Using OS detected language (en-US).
+[2020.11.23-22.40.02:255][  0]LogInit: Using OS detected locale (en-US).
+[2020.11.23-22.40.02:259][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2020.11.23-22.40.02:518][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2020.11.23-22.40.02:519][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2020.11.23-22.40.02:768][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.11.23-22.40.02:768][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
+[2020.11.23-22.40.02:768][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
+[2020.11.23-22.40.02:768][  0]LogD3D11RHI: D3D11 adapters:
+[2020.11.23-22.40.03:103][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 965M' (Feature Level 11_0)
+[2020.11.23-22.40.03:103][  0]LogD3D11RHI:       2010/0/4056 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2020.11.23-22.40.03:184][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 520' (Feature Level 11_0)
+[2020.11.23-22.40.03:184][  0]LogD3D11RHI:       128/0/4056 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2020.11.23-22.40.03:187][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2020.11.23-22.40.03:187][  0]LogD3D11RHI:       0/0/4056 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2020.11.23-22.40.03:187][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2020.11.23-22.40.03:247][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2020.11.23-22.40.03:248][  0]LogD3D11RHI:     GPU DeviceId: 0x1427 (for the marketing name, search the web for "GPU Device Id")
+[2020.11.23-22.40.03:248][  0]LogWindows: EnumDisplayDevices:
+[2020.11.23-22.40.03:248][  0]LogWindows:    0. 'Intel(R) HD Graphics 520' (P:0 D:0)
+[2020.11.23-22.40.03:249][  0]LogWindows:    1. 'Intel(R) HD Graphics 520' (P:1 D:1)
+[2020.11.23-22.40.03:249][  0]LogWindows:    2. 'Intel(R) HD Graphics 520' (P:0 D:0)
+[2020.11.23-22.40.03:249][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2020.11.23-22.40.03:249][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 965M
+[2020.11.23-22.40.03:249][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2020.11.23-22.40.03:249][  0]LogD3D11RHI:      Driver Date: Unknown
+[2020.11.23-22.40.03:249][  0]LogRHI: Texture pool is 1407 MB (70% of 2010 MB)
+[2020.11.23-22.40.03:303][  0]LogD3D11RHI: RHI has support for 64 bit atomics
+[2020.11.23-22.40.03:303][  0]LogD3D11RHI: Async texture creation enabled
+[2020.11.23-22.40.03:304][  0]LogD3D11RHI: Array index from any shader is supported
+[2020.11.23-22.40.03:323][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2020.11.23-22.40.03:701][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
+[2020.11.23-22.40.03:731][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2020.11.23-22.40.03:731][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2020.11.23-22.40.03:731][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2020.11.23-22.40.03:731][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2020.11.23-22.40.03:731][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2020.11.23-22.40.03:731][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2020.11.23-22.40.03:731][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2020.11.23-22.40.03:731][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2020.11.23-22.40.03:731][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2020.11.23-22.40.03:731][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2020.11.23-22.40.03:758][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2020.11.23-22.40.03:758][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2020.11.23-22.40.03:770][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Linux'
+[2020.11.23-22.40.03:780][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
+[2020.11.23-22.40.03:791][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+[2020.11.23-22.40.03:802][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+[2020.11.23-22.40.03:812][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
+[2020.11.23-22.40.03:823][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
+[2020.11.23-22.40.03:833][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
+[2020.11.23-22.40.03:863][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
+[2020.11.23-22.40.03:863][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
+[2020.11.23-22.40.03:881][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2020.11.23-22.40.03:881][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2020.11.23-22.40.03:891][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
+[2020.11.23-22.40.03:902][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2020.11.23-22.40.03:913][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2020.11.23-22.40.03:923][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2020.11.23-22.40.03:923][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2020.11.23-22.40.03:931][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2020.11.23-22.40.04:000][  0]LogShaderCompilers: Guid format shader working directory is 16 characters bigger than the processId version (../../../../../../Kingdoms_Coin/Intermediate/Shaders/WorkingDirectory/14440/).
+[2020.11.23-22.40.04:000][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/NewUser/AppData/Local/Temp/UnrealShaderWorkingDir/79896CEB49F789F676E0578157929A03/'.
+[2020.11.23-22.40.04:000][  0]LogXGEController: Cleaning working directory: C:/Users/NewUser/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2020.11.23-22.40.04:001][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2020.11.23-22.40.04:001][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2020.11.23-22.40.04:001][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2020.11.23-22.40.04:839][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2020.11.23-22.40.04:897][  0]LogDerivedDataCache: Loaded boot cache 0.06s 75MB C:/Users/NewUser/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2020.11.23-22.40.04:897][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/NewUser/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc
+[2020.11.23-22.40.04:897][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Kingdoms_Coin/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2020.11.23-22.40.04:897][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2020.11.23-22.40.04:897][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Kingdoms_Coin/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.11.23-22.40.04:897][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2020.11.23-22.40.04:908][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2020.11.23-22.40.04:909][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.11.23-22.40.04:909][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2020.11.23-22.40.04:910][  0]LogDerivedDataCache: Using Local data cache path C:/Users/NewUser/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2020.11.23-22.40.04:910][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2020.11.23-22.40.04:910][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2020.11.23-22.40.04:972][  0]LogSlate: Using FreeType 2.10.0
+[2020.11.23-22.40.04:973][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2020.11.23-22.40.05:011][  0]LogAssetRegistry: FAssetRegistry took 0.0029 seconds to start up
+[2020.11.23-22.40.05:314][  0]LogInit: Selected Device Profile: [Windows]
+[2020.11.23-22.40.05:439][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2020.11.23-22.40.05:440][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2020.11.23-22.40.05:440][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2020.11.23-22.40.05:440][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2020.11.23-22.40.05:440][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2020.11.23-22.40.05:458][  0]LogNetVersion: Kingdoms_Coin 1.0.0, NetCL: 13144385, EngineNetVer: 14, GameNetVer: 0 (Checksum: 1341107350)
+[2020.11.23-22.40.06:052][  0]LogAISub: UAISubsystem::UAISubsystem AISubsystem (0000023C7368D3C0), frame # 0
+[2020.11.23-22.40.06:052][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000023C735D51C0), frame # 0
+[2020.11.23-22.40.06:053][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000023C73658800), frame # 0
+[2020.11.23-22.40.06:130][  0]LogPackageLocalizationCache: Processed 19 localized package path(s) for 1 prioritized culture(s) in 0.068949 seconds
+[2020.11.23-22.40.06:136][  0]LogUObjectArray: 15917 objects as part of root set at end of initial load.
+[2020.11.23-22.40.06:136][  0]LogUObjectAllocator: 3965568 out of 0 bytes used by permanent object pool.
+[2020.11.23-22.40.06:136][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2020.11.23-22.40.06:505][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2020.11.23-22.40.06:510][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2020.11.23-22.40.06:598][  0]SourceControl: Source control is disabled
+[2020.11.23-22.40.06:598][  0]SourceControl: Source control is disabled
+[2020.11.23-22.40.06:601][  0]SourceControl: Source control is disabled
+[2020.11.23-22.40.06:604][  0]SourceControl: Source control is disabled
+[2020.11.23-22.40.06:612][  0]SourceControl: Source control is disabled
+[2020.11.23-22.40.06:882][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2020.11.23-22.40.06:904][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2020.11.23-22.40.06:904][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2020.11.23-22.40.06:959][  0]LogOcInput: OculusInput pre-init called
+[2020.11.23-22.40.06:970][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
+[2020.11.23-22.40.06:970][  0]LogWindows: File 'OVRPlugin.dll' does not exist
+[2020.11.23-22.40.07:036][  0]LogEngine: Initializing Engine...
+[2020.11.23-22.40.07:037][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.11.23-22.40.07:038][  0]LogMagicLeap: Warning: VR disabled because ZI is not enabled.  To enable, in the editor, Edit -> Project Settings -> Plugins -> Magic Leap Plugin -> Enable Zero Iteration
+[2020.11.23-22.40.07:038][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2020.11.23-22.40.07:220][  0]LogInit: Initializing FReadOnlyCVARCache
+[2020.11.23-22.40.07:230][  0]LogAIModule: Creating AISystem for world Untitled
+[2020.11.23-22.40.07:231][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000023C7A3D1C00), frame # 0
+[2020.11.23-22.40.07:231][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000023C7A415080), frame # 0
+[2020.11.23-22.40.07:235][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.11.23-22.40.07:235][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.11.23-22.40.07:235][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.11.23-22.40.07:235][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.11.23-22.40.07:235][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.11.23-22.40.07:235][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.11.23-22.40.07:235][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.11.23-22.40.07:235][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.11.23-22.40.07:236][  0]LogAudio: Display: Using built-in audio occlusion.
+[2020.11.23-22.40.07:236][  0]LogAudioMixer: Display: Initializing audio mixer.
+[2020.11.23-22.40.07:249][  0]LogAudioMixer: Display: 0: FrontLeft
+[2020.11.23-22.40.07:249][  0]LogAudioMixer: Display: 1: FrontRight
+[2020.11.23-22.40.07:474][  0]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio(SST))
+[2020.11.23-22.40.07:475][  0]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.11.23-22.40.07:477][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.11.23-22.40.07:478][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.11.23-22.40.07:479][  0]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.11.23-22.40.07:480][  0]LogInit: FAudioDevice initialized.
+[2020.11.23-22.40.07:480][  0]LogNetVersion: Set ProjectVersion to 1.0. Version Checksum will be recalculated on next use.
+[2020.11.23-22.40.07:552][  0]LogDerivedDataCache: Saved boot cache 0.07s 75MB C:/Users/NewUser/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2020.11.23-22.40.07:557][  0]LogInit: Texture streaming: Enabled
+[2020.11.23-22.40.07:577][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2020.11.23-22.40.07:577][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
+[2020.11.23-22.40.07:579][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
+[2020.11.23-22.40.07:644][  0]LogInit: Transaction tracking system initialized
+[2020.11.23-22.40.07:667][  0]BlueprintLog: New page: Editor Load
+[2020.11.23-22.40.07:740][  0]LocalizationService: Localization service is disabled
+[2020.11.23-22.40.08:136][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2020.11.23-22.40.08:136][  0]LogCook: Display: Mobile HDR setting 1
+[2020.11.23-22.40.08:235][  0]LogFileCache: Scanning file cache for directory 'C:/Kingdoms_Coin/Content/' took 0.00s
+[2020.11.23-22.40.08:630][  0]SourceControl: Source control is disabled
+[2020.11.23-22.40.08:630][  0]LogUnrealEdMisc: Loading editor; pre map load, took 8.193
+[2020.11.23-22.40.08:630][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.11.23-22.40.08:631][  0]LightingResults: New page: Lighting Build
+[2020.11.23-22.40.08:632][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2020.11.23-22.40.08:632][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.23-22.40.08:632][  0]MapCheck: New page: Map Check
+[2020.11.23-22.40.08:632][  0]LightingResults: New page: Lighting Build
+[2020.11.23-22.40.08:639][  0]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000023C7A3D1C00), frame # 0
+[2020.11.23-22.40.08:639][  0]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000023C7A415080), frame # 0
+[2020.11.23-22.40.08:640][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.84ms
+[2020.11.23-22.40.08:736][  0]LogAIModule: Creating AISystem for world Untitled_1
+[2020.11.23-22.40.08:737][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000023C03F2BE00), frame # 0
+[2020.11.23-22.40.08:737][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000023C09615A80), frame # 0
+[2020.11.23-22.40.08:742][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.11.23-22.40.08:756][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.22ms
+[2020.11.23-22.40.08:756][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.11.23-22.40.08:757][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.252ms to complete.
+[2020.11.23-22.40.08:757][  0]LogFileHelpers: Loading map 'Template_Default' took 0.127
+[2020.11.23-22.40.08:759][  0]LogUnrealEdMisc: Total Editor Startup Time, took 8.322
+[2020.11.23-22.40.08:899][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.11.23-22.40.08:908][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.11.23-22.40.08:917][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.11.23-22.40.08:925][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.11.23-22.40.08:932][  0]LogCollectionManager: Loaded 0 collections in 0.002038 seconds
+[2020.11.23-22.40.08:948][  0]LogFileCache: Scanning file cache for directory 'C:/Kingdoms_Coin/Saved/Collections/' took 0.00s
+[2020.11.23-22.40.08:948][  0]LogFileCache: Scanning file cache for directory 'C:/Kingdoms_Coin/Content/Developers/NewUser/Collections/' took 0.00s
+[2020.11.23-22.40.08:948][  0]LogFileCache: Scanning file cache for directory 'C:/Kingdoms_Coin/Content/Collections/' took 0.00s
+[2020.11.23-22.40.08:948][  0]LogContentBrowser: Native class hierarchy populated in 0.0102 seconds. Added 3427 classes and 821 folders.
+[2020.11.23-22.40.08:951][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2020.11.23-22.40.09:006][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2020.11.23-22.40.09:007][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0002 seconds. Added 2 classes and 0 folders.
+[2020.11.23-22.40.09:135][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2020.11.23-22.40.09:135][  0]LogLoad: (Engine Initialization) Total time: 8.70 seconds
+[2020.11.23-22.40.09:135][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2020.11.23-22.40.09:197][  0]LogAssetRegistry: Asset discovery search completed in 4.1873 seconds
+[2020.11.23-22.40.09:204][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000004 seconds (updated 0 objects)
+[2020.11.23-22.40.09:205][  0]LogContentStreaming: Texture pool size now 400 MB
+[2020.11.23-22.40.09:214][  0]LogSlate: Took 0.000163 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2020.11.23-22.40.09:216][  0]LogSlate: Took 0.000142 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2020.11.23-22.40.09:220][  0]LogSlate: Took 0.000168 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2020.11.23-22.40.09:553][  2]LogRenderer: Reallocating scene render targets to support 804x348 Format 9 NumSamples 1 (Frame:1).
+[2020.11.23-22.46.29:162][717]LogSlate: Took 0.000222 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.11.23-22.46.44:792][717]LogSlate: Window 'Save Level As' being destroyed
+[2020.11.23-22.46.44:818][717]LogSlate: Took 0.000207 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.11.23-22.46.44:866][717]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/lvl_Lvl1" FILE="../../../../../../Kingdoms_Coin/Content/Maps/lvl_Lvl1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2020.11.23-22.46.44:881][717]LogUObjectHash: Compacting FUObjectHashTables data took   1.19ms
+[2020.11.23-22.46.44:917][717]LogSavePackage: Moving '../../../../../../Kingdoms_Coin/Saved/lvl_Lvl18C8913E04EE02628F91AC59261B7945A.tmp' to '../../../../../../Kingdoms_Coin/Content/Maps/lvl_Lvl1.umap'
+[2020.11.23-22.46.44:955][717]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/lvl_Lvl1_BuiltData" FILE="../../../../../../Kingdoms_Coin/Content/Maps/lvl_Lvl1_BuiltData.uasset" SILENT=true
+[2020.11.23-22.46.44:977][717]LogSavePackage: Moving '../../../../../../Kingdoms_Coin/Saved/lvl_Lvl1_BuiltData06C62E364A175B8DB19AADA0EC4859A3.tmp' to '../../../../../../Kingdoms_Coin/Content/Maps/lvl_Lvl1_BuiltData.uasset'
+[2020.11.23-22.46.45:005][717]LogFileHelpers: Saving map 'lvl_Lvl1' took 0.200
+[2020.11.23-22.46.45:006][717]Cmd: MAP LOAD FILE="../../../../../../Kingdoms_Coin/Content/Maps/lvl_Lvl1.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.11.23-22.46.45:042][717]LightingResults: New page: Lighting Build
+[2020.11.23-22.46.45:042][717]LoadErrors: New page: Loading map: lvl_Lvl1.umap
+[2020.11.23-22.46.45:044][717]LogWorld: UWorld::CleanupWorld for lvl_Lvl1, bSessionEnded=true, bCleanupResources=true
+[2020.11.23-22.46.45:044][717]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.23-22.46.45:044][717]MapCheck: New page: Map Check
+[2020.11.23-22.46.45:044][717]LightingResults: New page: Lighting Build
+[2020.11.23-22.46.45:058][717]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000023C03F2BE00), frame # 1717
+[2020.11.23-22.46.45:058][717]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000023C09615A80), frame # 1717
+[2020.11.23-22.46.45:059][717]LogUObjectHash: Compacting FUObjectHashTables data took   0.64ms
+[2020.11.23-22.46.45:071][717]LogAIModule: Creating AISystem for world lvl_Lvl1
+[2020.11.23-22.46.45:071][717]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000023C091B7600), frame # 1717
+[2020.11.23-22.46.45:071][717]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000023C70D1E480), frame # 1717
+[2020.11.23-22.46.45:077][717]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.11.23-22.46.45:092][717]LogUObjectHash: Compacting FUObjectHashTables data took   1.03ms
+[2020.11.23-22.46.45:148][717]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.11.23-22.46.45:149][717]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.151ms to complete.
+[2020.11.23-22.46.45:149][717]LogFileHelpers: Loading map 'lvl_Lvl1' took 0.143
+[2020.11.23-22.46.45:154][717]AssetCheck: New page: Asset Save: multiple assets
+[2020.11.23-22.46.45:154][717]LogContentValidation: Display: Validating World /Game/Maps/lvl_Lvl1.lvl_Lvl1
+[2020.11.23-22.46.45:154][717]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Maps/lvl_Lvl1_BuiltData.lvl_Lvl1_BuiltData
+[2020.11.23-22.47.01:393][673]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Levels/lvl_Lvl1_BuiltData" FILE="../../../../../../Kingdoms_Coin/Content/Maps/Levels/lvl_Lvl1_BuiltData.uasset" SILENT=true
+[2020.11.23-22.47.01:415][673]LogSavePackage: Moving '../../../../../../Kingdoms_Coin/Saved/lvl_Lvl1_BuiltDataC473F3E941D4EF228A8C53BC5B9EC60B.tmp' to '../../../../../../Kingdoms_Coin/Content/Maps/Levels/lvl_Lvl1_BuiltData.uasset'
+[2020.11.23-22.47.01:417][673]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Levels/lvl_Lvl1" FILE="../../../../../../Kingdoms_Coin/Content/Maps/Levels/lvl_Lvl1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2020.11.23-22.47.01:427][673]LogUObjectHash: Compacting FUObjectHashTables data took   0.25ms
+[2020.11.23-22.47.01:447][673]LogSavePackage: Moving '../../../../../../Kingdoms_Coin/Saved/lvl_Lvl1E38BB7BA46E28BAB30D3238E321346BF.tmp' to '../../../../../../Kingdoms_Coin/Content/Maps/Levels/lvl_Lvl1.umap'
+[2020.11.23-22.47.01:478][673]LogFileHelpers: Saving map 'lvl_Lvl1' took 0.061
+[2020.11.23-22.47.01:682][673]LogUObjectHash: Compacting FUObjectHashTables data took   0.41ms
+[2020.11.23-22.47.01:693][673]LogUObjectHash: Compacting FUObjectHashTables data took   0.26ms
+[2020.11.23-22.47.01:719][673]LogUObjectHash: Compacting FUObjectHashTables data took   0.95ms
+[2020.11.23-22.47.01:730][673]LogUObjectHash: Compacting FUObjectHashTables data took   0.24ms
+[2020.11.23-22.47.01:763][673]AssetCheck: New page: Asset Save: multiple assets
+[2020.11.23-22.47.01:763][673]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Maps/Levels/lvl_Lvl1_BuiltData.lvl_Lvl1_BuiltData
+[2020.11.23-22.47.01:763][673]LogContentValidation: Display: Validating World /Game/Maps/Levels/lvl_Lvl1.lvl_Lvl1
+[2020.11.23-22.47.07:007][971]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/lvl_Lvl1_BuiltData" FILE="../../../../../../Kingdoms_Coin/Content/Levels/lvl_Lvl1_BuiltData.uasset" SILENT=true
+[2020.11.23-22.47.07:033][971]LogSavePackage: Moving '../../../../../../Kingdoms_Coin/Saved/lvl_Lvl1_BuiltData553022FD496364659CD8FB954FAC2EEC.tmp' to '../../../../../../Kingdoms_Coin/Content/Levels/lvl_Lvl1_BuiltData.uasset'
+[2020.11.23-22.47.07:036][971]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/lvl_Lvl1" FILE="../../../../../../Kingdoms_Coin/Content/Levels/lvl_Lvl1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2020.11.23-22.47.07:049][971]LogUObjectHash: Compacting FUObjectHashTables data took   0.37ms
+[2020.11.23-22.47.07:075][971]LogSavePackage: Moving '../../../../../../Kingdoms_Coin/Saved/lvl_Lvl1B08E103A4C8F4EC4B07232AC53FAC3B2.tmp' to '../../../../../../Kingdoms_Coin/Content/Levels/lvl_Lvl1.umap'
+[2020.11.23-22.47.07:112][971]LogFileHelpers: Saving map 'lvl_Lvl1' took 0.075
+[2020.11.23-22.47.07:285][971]LogUObjectHash: Compacting FUObjectHashTables data took   0.23ms
+[2020.11.23-22.47.07:296][971]LogUObjectHash: Compacting FUObjectHashTables data took   0.37ms
+[2020.11.23-22.47.07:322][971]LogUObjectHash: Compacting FUObjectHashTables data took   0.64ms
+[2020.11.23-22.47.07:332][971]LogUObjectHash: Compacting FUObjectHashTables data took   0.37ms
+[2020.11.23-22.47.07:362][971]AssetCheck: New page: Asset Save: multiple assets
+[2020.11.23-22.47.07:362][971]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Levels/lvl_Lvl1_BuiltData.lvl_Lvl1_BuiltData
+[2020.11.23-22.47.07:362][971]LogContentValidation: Display: Validating World /Game/Levels/lvl_Lvl1.lvl_Lvl1
+[2020.11.23-22.47.33:963][926]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\NewUser\Desktop\KC_A_Assets\KC_A_Assets\backicon.png)
+[2020.11.23-22.47.33:971][926]LogTexture: Display: Building textures: backicon (AutoDXT, 128X128)
+[2020.11.23-22.47.33:989][926]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\NewUser\Desktop\KC_A_Assets\KC_A_Assets\BeginButton.png)
+[2020.11.23-22.47.33:992][926]LogTexture: Display: Building textures: BeginButton (AutoDXT, 256X256)
+[2020.11.23-22.47.34:030][926]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\NewUser\Desktop\KC_A_Assets\KC_A_Assets\C1_1.png)
+[2020.11.23-22.47.34:032][926]LogTexture: Display: Building textures: C1_1 (AutoDXT, 44X44)
+[2020.11.23-22.47.34:044][926]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\NewUser\Desktop\KC_A_Assets\KC_A_Assets\C1_2.png)
+[2020.11.23-22.47.34:045][926]LogTexture: Display: Building textures: C1_2 (AutoDXT, 44X44)
+[2020.11.23-22.47.34:056][926]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\NewUser\Desktop\KC_A_Assets\KC_A_Assets\C1_3.png)
+[2020.11.23-22.47.34:058][926]LogTexture: Display: Building textures: C1_3 (AutoDXT, 44X44)
+[2020.11.23-22.47.34:069][926]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\NewUser\Desktop\KC_A_Assets\KC_A_Assets\C1_4.png)
+[2020.11.23-22.47.34:073][926]LogTexture: Display: Building textures: C1_4 (AutoDXT, 44X44)
+[2020.11.23-22.47.34:084][926]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\NewUser\Desktop\KC_A_Assets\KC_A_Assets\+1R.png)
+[2020.11.23-22.47.34:086][926]LogTexture: Display: Building textures: +1R (AutoDXT, 32X32)
+[2020.11.23-22.47.34:097][926]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\NewUser\Desktop\KC_A_Assets\KC_A_Assets\+1Y.png)
+[2020.11.23-22.47.34:099][926]LogTexture: Display: Building textures: +1Y (AutoDXT, 32X32)
+[2020.11.23-22.47.34:111][926]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\NewUser\Desktop\KC_A_Assets\KC_A_Assets\+2R.png)
+[2020.11.23-22.47.34:112][926]LogTexture: Display: Building textures: +2R (AutoDXT, 32X32)
+[2020.11.23-22.47.34:123][926]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\NewUser\Desktop\KC_A_Assets\KC_A_Assets\+2Y.png)
+[2020.11.23-22.47.34:124][926]LogTexture: Display: Building textures: +2Y (AutoDXT, 32X32)
+[2020.11.23-22.47.34:135][926]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\NewUser\Desktop\KC_A_Assets\KC_A_Assets\+4R.png)
+[2020.11.23-22.47.34:136][926]LogTexture: Display: Building textures: +4R (AutoDXT, 32X32)
+[2020.11.23-22.47.34:147][926]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\NewUser\Desktop\KC_A_Assets\KC_A_Assets\+4Y.png)
+[2020.11.23-22.47.34:149][926]LogTexture: Display: Building textures: +4Y (AutoDXT, 32X32)
+[2020.11.23-22.47.34:165][926]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\NewUser\Desktop\KC_A_Assets\KC_A_Assets\+8R.png)
+[2020.11.23-22.47.34:167][926]LogTexture: Display: Building textures: +8R (AutoDXT, 32X32)
+[2020.11.23-22.47.34:178][926]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\NewUser\Desktop\KC_A_Assets\KC_A_Assets\+8Y.png)
+[2020.11.23-22.47.34:180][926]LogTexture: Display: Building textures: +8Y (AutoDXT, 32X32)
+[2020.11.23-22.47.34:191][926]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\NewUser\Desktop\KC_A_Assets\KC_A_Assets\A_1.png)
+[2020.11.23-22.47.34:193][926]LogTexture: Display: Building textures: A_1 (AutoDXT, 44X44)
+[2020.11.23-22.48.26:999][215]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\NewUser\Desktop\KC_A_Assets\KC_A_Assets\Games.png)
+[2020.11.23-22.48.27:002][215]LogTexture: Display: Building textures: Games (AutoDXT, 256X72)
+[2020.11.23-22.48.27:014][215]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\NewUser\Desktop\KC_A_Assets\KC_A_Assets\hand 08.png)
+[2020.11.23-22.48.27:015][215]LogTexture: Display: Building textures: hand_08 (AutoDXT, 16X16)
+[2020.11.23-22.48.27:026][215]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\NewUser\Desktop\KC_A_Assets\KC_A_Assets\KC_1.png)
+[2020.11.23-22.48.27:029][215]LogTexture: Display: Building textures: KC_1 (BGRA8, 385X256)
+[2020.11.23-22.48.27:046][215]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\NewUser\Desktop\KC_A_Assets\KC_A_Assets\L_A.png)
+[2020.11.23-22.48.27:048][215]LogTexture: Display: Building textures: L_A (AutoDXT, 32X32)
+[2020.11.23-22.48.27:060][215]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\NewUser\Desktop\KC_A_Assets\KC_A_Assets\L_A_P.png)
+[2020.11.23-22.48.27:063][215]LogTexture: Display: Building textures: L_A_P (AutoDXT, 32X32)
+[2020.11.23-22.48.27:075][215]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\NewUser\Desktop\KC_A_Assets\KC_A_Assets\M_B.png)
+[2020.11.23-22.48.27:077][215]LogTexture: Display: Building textures: M_B (AutoDXT, 32X32)
+[2020.11.23-22.48.27:089][215]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\NewUser\Desktop\KC_A_Assets\KC_A_Assets\M_B_P.png)
+[2020.11.23-22.48.27:091][215]LogTexture: Display: Building textures: M_B_P (AutoDXT, 32X32)
+[2020.11.23-22.48.27:102][215]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\NewUser\Desktop\KC_A_Assets\KC_A_Assets\MatchOptions.png)
+[2020.11.23-22.48.27:105][215]LogTexture: Display: Building textures: MatchOptions (AutoDXT, 256X256)
+[2020.11.23-22.48.27:127][215]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\NewUser\Desktop\KC_A_Assets\KC_A_Assets\MatchOptions2.png)
+[2020.11.23-22.48.27:130][215]LogTexture: Display: Building textures: MatchOptions2 (AutoDXT, 256X256)
+[2020.11.23-22.48.27:162][215]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\NewUser\Desktop\KC_A_Assets\KC_A_Assets\MENU_Icon.png)
+[2020.11.23-22.48.27:165][215]LogTexture: Display: Building textures: MENU_Icon (AutoDXT, 256X56)
+[2020.11.23-22.48.27:176][215]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\NewUser\Desktop\KC_A_Assets\KC_A_Assets\MuteMusic.png)
+[2020.11.23-22.48.27:178][215]LogTexture: Display: Building textures: MuteMusic (AutoDXT, 256X72)
+[2020.11.23-22.48.27:188][215]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\NewUser\Desktop\KC_A_Assets\KC_A_Assets\MuteSoundFX.png)
+[2020.11.23-22.48.27:190][215]LogTexture: Display: Building textures: MuteSoundFX (AutoDXT, 256X72)
+[2020.11.23-22.48.27:207][215]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\NewUser\Desktop\KC_A_Assets\KC_A_Assets\NC_1.png)
+[2020.11.23-22.48.27:208][215]LogTexture: Display: Building textures: NC_1 (AutoDXT, 32X32)
+[2020.11.23-22.48.27:221][215]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\NewUser\Desktop\KC_A_Assets\KC_A_Assets\NO_Icon.png)
+[2020.11.23-22.48.27:223][215]LogTexture: Display: Building textures: NO_Icon (AutoDXT, 128X128)
+[2020.11.23-22.48.27:237][215]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\NewUser\Desktop\KC_A_Assets\KC_A_Assets\Offline.png)
+[2020.11.23-22.48.27:239][215]LogTexture: Display: Building textures: Offline (AutoDXT, 356X72)
+[2020.11.23-22.48.27:252][215]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\NewUser\Desktop\KC_A_Assets\KC_A_Assets\Online.png)
+[2020.11.23-22.48.27:254][215]LogTexture: Display: Building textures: Online (AutoDXT, 256X72)
+[2020.11.23-22.48.27:266][215]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\NewUser\Desktop\KC_A_Assets\KC_A_Assets\Options_Icon.png)
+[2020.11.23-22.48.27:268][215]LogTexture: Display: Building textures: Options_Icon (AutoDXT, 128X128)
+[2020.11.23-22.48.27:294][215]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\NewUser\Desktop\KC_A_Assets\KC_A_Assets\OptionsButton.png)
+[2020.11.23-22.48.27:296][215]LogTexture: Display: Building textures: OptionsButton (AutoDXT, 256X256)
+[2020.11.23-22.48.27:349][215]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\NewUser\Desktop\KC_A_Assets\KC_A_Assets\P1_1.png)
+[2020.11.23-22.48.27:351][215]LogTexture: Display: Building textures: P1_1 (AutoDXT, 128X128)
+[2020.11.23-22.48.27:365][215]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\NewUser\Desktop\KC_A_Assets\KC_A_Assets\P1_2.png)
+[2020.11.23-22.48.27:367][215]LogTexture: Display: Building textures: P1_2 (AutoDXT, 128X128)
+[2020.11.23-22.48.27:384][215]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\NewUser\Desktop\KC_A_Assets\KC_A_Assets\P1_Wins.png)
+[2020.11.23-22.48.27:386][215]LogTexture: Display: Building textures: P1_Wins (AutoDXT, 256X256)
+[2020.11.23-22.48.27:430][215]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\NewUser\Desktop\KC_A_Assets\KC_A_Assets\P2_1.png)
+[2020.11.23-22.48.27:432][215]LogTexture: Display: Building textures: P2_1 (AutoDXT, 128X128)
+[2020.11.23-22.48.27:446][215]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\NewUser\Desktop\KC_A_Assets\KC_A_Assets\P2_2.png)
+[2020.11.23-22.48.27:448][215]LogTexture: Display: Building textures: P2_2 (AutoDXT, 128X128)
+[2020.11.23-22.48.27:465][215]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\NewUser\Desktop\KC_A_Assets\KC_A_Assets\P2_Wins.png)
+[2020.11.23-22.48.27:467][215]LogTexture: Display: Building textures: P2_Wins (AutoDXT, 256X256)
+[2020.11.23-22.48.27:508][215]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\NewUser\Desktop\KC_A_Assets\KC_A_Assets\PAUSED_Icon.png)
+[2020.11.23-22.48.27:509][215]LogTexture: Display: Building textures: PAUSED_Icon (AutoDXT, 256X56)
+[2020.11.23-22.48.27:520][215]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\NewUser\Desktop\KC_A_Assets\KC_A_Assets\QUIT.png)
+[2020.11.23-22.48.27:522][215]LogTexture: Display: Building textures: QUIT (AutoDXT, 256X56)
+[2020.11.23-22.48.27:533][215]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\NewUser\Desktop\KC_A_Assets\KC_A_Assets\R_A.png)
+[2020.11.23-22.48.27:534][215]LogTexture: Display: Building textures: R_A (AutoDXT, 32X32)
+[2020.11.23-22.48.27:545][215]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\NewUser\Desktop\KC_A_Assets\KC_A_Assets\R_A_P.png)
+[2020.11.23-22.48.27:547][215]LogTexture: Display: Building textures: R_A_P (AutoDXT, 32X32)
+[2020.11.23-22.48.27:558][215]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\NewUser\Desktop\KC_A_Assets\KC_A_Assets\SoundIcon.png)
+[2020.11.23-22.48.27:560][215]LogTexture: Display: Building textures: SoundIcon (AutoDXT, 256X256)
+[2020.11.23-22.48.27:585][215]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\NewUser\Desktop\KC_A_Assets\KC_A_Assets\SoundIcon2.png)
+[2020.11.23-22.48.27:587][215]LogTexture: Display: Building textures: SoundIcon2 (AutoDXT, 256X256)
+[2020.11.23-22.48.27:610][215]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\NewUser\Desktop\KC_A_Assets\KC_A_Assets\StartButton.png)
+[2020.11.23-22.48.27:613][215]LogTexture: Display: Building textures: StartButton (AutoDXT, 256X256)
+[2020.11.23-22.48.27:653][215]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\NewUser\Desktop\KC_A_Assets\KC_A_Assets\Sw2_1.png)
+[2020.11.23-22.48.27:656][215]LogTexture: Display: Building textures: Sw2_1 (AutoDXT, 64X64)
+[2020.11.23-22.48.27:671][215]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\NewUser\Desktop\KC_A_Assets\KC_A_Assets\Sw2_2.png)
+[2020.11.23-22.48.27:673][215]LogTexture: Display: Building textures: Sw2_2 (AutoDXT, 64X64)
+[2020.11.23-22.48.27:687][215]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\NewUser\Desktop\KC_A_Assets\KC_A_Assets\Sw2_3.png)
+[2020.11.23-22.48.27:689][215]LogTexture: Display: Building textures: Sw2_3 (AutoDXT, 64X64)
+[2020.11.23-22.48.27:702][215]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\NewUser\Desktop\KC_A_Assets\KC_A_Assets\WH1.png)
+[2020.11.23-22.48.27:704][215]LogTexture: Display: Building textures: WH1 (AutoDXT, 32X32)
+[2020.11.23-22.48.27:716][215]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\NewUser\Desktop\KC_A_Assets\KC_A_Assets\WH2.png)
+[2020.11.23-22.48.27:717][215]LogTexture: Display: Building textures: WH2 (AutoDXT, 32X32)
+[2020.11.23-22.48.27:730][215]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\NewUser\Desktop\KC_A_Assets\KC_A_Assets\WH3.png)
+[2020.11.23-22.48.27:732][215]LogTexture: Display: Building textures: WH3 (AutoDXT, 32X32)
+[2020.11.23-22.48.27:744][215]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\NewUser\Desktop\KC_A_Assets\KC_A_Assets\WH4.png)
+[2020.11.23-22.48.27:746][215]LogTexture: Display: Building textures: WH4 (AutoDXT, 32X32)
+[2020.11.23-22.48.27:757][215]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\NewUser\Desktop\KC_A_Assets\KC_A_Assets\YES_Icon.png)
+[2020.11.23-22.48.27:758][215]LogTexture: Display: Building textures: YES_Icon (AutoDXT, 128X128)
+[2020.11.23-22.49.10:719][155]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\NewUser\Desktop\KC_A_Assets\KC_A_Assets\sky_fc.png)
+[2020.11.23-22.49.10:723][155]LogTexture: Display: Building textures: sky_fc (AutoDXT, 384X216)
+[2020.11.23-22.49.10:739][155]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\NewUser\Desktop\KC_A_Assets\KC_A_Assets\clouds_front_fc.png)
+[2020.11.23-22.49.10:752][155]LogTexture: Display: Building textures: clouds_front_fc (AutoDXT, 384X216)
+[2020.11.23-22.49.10:768][155]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\NewUser\Desktop\KC_A_Assets\KC_A_Assets\clouds_front_t_fc.png)
+[2020.11.23-22.49.10:770][155]LogTexture: Display: Building textures: clouds_front_t_fc (AutoDXT, 384X216)
+[2020.11.23-22.49.10:789][155]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\NewUser\Desktop\KC_A_Assets\KC_A_Assets\clouds_mid_fc.png)
+[2020.11.23-22.49.10:792][155]LogTexture: Display: Building textures: clouds_mid_fc (AutoDXT, 384X216)
+[2020.11.23-22.49.10:817][155]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\NewUser\Desktop\KC_A_Assets\KC_A_Assets\clouds_mid_t_fc.png)
+[2020.11.23-22.49.10:820][155]LogTexture: Display: Building textures: clouds_mid_t_fc (AutoDXT, 384X216)
+[2020.11.23-22.49.10:845][155]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\NewUser\Desktop\KC_A_Assets\KC_A_Assets\Coin-Drop-Background.png)
+[2020.11.23-22.49.10:874][155]LogTexture: Display: Building textures: Coin-Drop-Background (AutoDXT, 1080X1920)
+[2020.11.23-22.49.11:022][155]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\NewUser\Desktop\KC_A_Assets\KC_A_Assets\D_11.png)
+[2020.11.23-22.49.11:025][155]LogTexture: Display: Building textures: D_11 (AutoDXT, 64X64)
+[2020.11.23-22.49.11:040][155]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\NewUser\Desktop\KC_A_Assets\KC_A_Assets\D_11_2.png)
+[2020.11.23-22.49.11:042][155]LogTexture: Display: Building textures: D_11_2 (AutoDXT, 256X256)
+[2020.11.23-22.49.11:069][155]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\NewUser\Desktop\KC_A_Assets\KC_A_Assets\D_12.png)
+[2020.11.23-22.49.11:072][155]LogTexture: Display: Building textures: D_12 (AutoDXT, 64X64)
+[2020.11.23-22.49.11:089][155]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\NewUser\Desktop\KC_A_Assets\KC_A_Assets\D_12_2.png)
+[2020.11.23-22.49.11:092][155]LogTexture: Display: Building textures: D_12_2 (AutoDXT, 256X256)
+[2020.11.23-22.49.11:120][155]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\NewUser\Desktop\KC_A_Assets\KC_A_Assets\far_mountains_fc.png)
+[2020.11.23-22.49.11:122][155]LogTexture: Display: Building textures: far_mountains_fc (AutoDXT, 384X216)
+[2020.11.23-22.49.11:141][155]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\NewUser\Desktop\KC_A_Assets\KC_A_Assets\FullBoarder.png)
+[2020.11.23-22.49.11:176][155]LogTexture: Display: Building textures: FullBoarder (AutoDXT, 1080X1920)
+[2020.11.23-22.49.11:519][155]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\NewUser\Desktop\KC_A_Assets\KC_A_Assets\grassy_mountains_2.png)
+[2020.11.23-22.49.11:524][155]LogTexture: Display: Building textures: grassy_mountains_2 (AutoDXT, 384X384)
+[2020.11.23-22.49.11:565][155]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\NewUser\Desktop\KC_A_Assets\KC_A_Assets\hill.png)
+[2020.11.23-22.49.11:570][155]LogTexture: Display: Building textures: hill (AutoDXT, 384X216)
+[2020.11.23-22.49.11:624][155]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\NewUser\Desktop\KC_A_Assets\KC_A_Assets\InnerBG.png)
+[2020.11.23-22.49.11:666][155]LogTexture: Display: Building textures: InnerBG (AutoDXT, 1080X1920)
+[2020.11.23-22.49.35:760][893]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 C:\Users\NewUser\Desktop\KC_A_Assets\KC_A_Assets\CoinDropSounds\SFX-crystalcollect.wav)
+[2020.11.23-22.49.35:767][893]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG10000-1-1-1-1-1 wave SFX-crystalcollect...
+[2020.11.23-22.49.35:767][893]LogAudioDerivedData: Display: Compression Quality for SoundWave /Game/Sounds/SFX-crystalcollect.SFX-crystalcollect will be modified from 40 to 40.
+[2020.11.23-22.49.35:845][893]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 407076 while cooking SoundWave /Game/Sounds/SFX-crystalcollect.SFX-crystalcollect.
+[2020.11.23-22.49.35:851][893]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 C:\Users\NewUser\Desktop\KC_A_Assets\KC_A_Assets\CoinDropSounds\spin1.wav)
+[2020.11.23-22.49.35:852][893]Error: Unable to read wave file 'spin1' - "Unsupported wave file format.  Only PCM, ADPCM, and DVI ADPCM can be imported."
+[2020.11.23-22.49.35:861][893]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG10000-1-1-1-1-1 wave spin1...
+[2020.11.23-22.49.35:861][893]LogAudioDerivedData: Display: Compression Quality for SoundWave /Game/Sounds/spin1.spin1 will be modified from 40 to 40.
+[2020.11.23-22.49.35:872][893]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 62732 while cooking SoundWave /Game/Sounds/spin1.spin1.
+[2020.11.23-22.49.35:877][893]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 C:\Users\NewUser\Desktop\KC_A_Assets\KC_A_Assets\CoinDropSounds\stonebang.wav)
+[2020.11.23-22.49.35:878][893]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG10000-1-1-1-1-1 wave stonebang...
+[2020.11.23-22.49.35:878][893]LogAudioDerivedData: Display: Compression Quality for SoundWave /Game/Sounds/stonebang.stonebang will be modified from 40 to 40.
+[2020.11.23-22.49.35:901][893]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 81152 while cooking SoundWave /Game/Sounds/stonebang.stonebang.
+[2020.11.23-22.49.35:905][893]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 C:\Users\NewUser\Desktop\KC_A_Assets\KC_A_Assets\CoinDropSounds\takekey.wav)
+[2020.11.23-22.49.35:907][893]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG10000-1-1-1-1-1 wave takekey...
+[2020.11.23-22.49.35:907][893]LogAudioDerivedData: Display: Compression Quality for SoundWave /Game/Sounds/takekey.takekey will be modified from 40 to 40.
+[2020.11.23-22.49.35:923][893]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 61060 while cooking SoundWave /Game/Sounds/takekey.takekey.
+[2020.11.23-22.49.35:927][893]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 C:\Users\NewUser\Desktop\KC_A_Assets\KC_A_Assets\CoinDropSounds\zoomin.wav)
+[2020.11.23-22.49.35:928][893]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG10000-1-1-1-1-1 wave zoomin...
+[2020.11.23-22.49.35:928][893]LogAudioDerivedData: Display: Compression Quality for SoundWave /Game/Sounds/zoomin.zoomin will be modified from 40 to 40.
+[2020.11.23-22.49.35:947][893]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 25580 while cooking SoundWave /Game/Sounds/zoomin.zoomin.
+[2020.11.23-22.49.35:950][893]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 C:\Users\NewUser\Desktop\KC_A_Assets\KC_A_Assets\CoinDropSounds\zoomout.wav)
+[2020.11.23-22.49.35:971][893]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG10000-1-1-1-1-1 wave zoomout...
+[2020.11.23-22.49.35:971][893]LogAudioDerivedData: Display: Compression Quality for SoundWave /Game/Sounds/zoomout.zoomout will be modified from 40 to 40.
+[2020.11.23-22.49.35:997][893]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 62564 while cooking SoundWave /Game/Sounds/zoomout.zoomout.
+[2020.11.23-22.49.36:005][893]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 C:\Users\NewUser\Desktop\KC_A_Assets\KC_A_Assets\CoinDropSounds\coin1.wav)
+[2020.11.23-22.49.36:010][893]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG10000-1-1-1-1-1 wave coin1...
+[2020.11.23-22.49.36:010][893]LogAudioDerivedData: Display: Compression Quality for SoundWave /Game/Sounds/coin1.coin1 will be modified from 40 to 40.
+[2020.11.23-22.49.36:030][893]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 30640 while cooking SoundWave /Game/Sounds/coin1.coin1.
+[2020.11.23-22.49.36:034][893]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 C:\Users\NewUser\Desktop\KC_A_Assets\KC_A_Assets\CoinDropSounds\coin2.wav)
+[2020.11.23-22.49.36:035][893]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG10000-1-1-1-1-1 wave coin2...
+[2020.11.23-22.49.36:035][893]LogAudioDerivedData: Display: Compression Quality for SoundWave /Game/Sounds/coin2.coin2 will be modified from 40 to 40.
+[2020.11.23-22.49.36:069][893]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 81212 while cooking SoundWave /Game/Sounds/coin2.coin2.
+[2020.11.23-22.49.36:073][893]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 C:\Users\NewUser\Desktop\KC_A_Assets\KC_A_Assets\CoinDropSounds\coin3.wav)
+[2020.11.23-22.49.36:074][893]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG10000-1-1-1-1-1 wave coin3...
+[2020.11.23-22.49.36:074][893]LogAudioDerivedData: Display: Compression Quality for SoundWave /Game/Sounds/coin3.coin3 will be modified from 40 to 40.
+[2020.11.23-22.49.36:100][893]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 46304 while cooking SoundWave /Game/Sounds/coin3.coin3.
+[2020.11.23-22.49.36:104][893]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 C:\Users\NewUser\Desktop\KC_A_Assets\KC_A_Assets\CoinDropSounds\crack1.wav)
+[2020.11.23-22.49.36:105][893]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG10000-1-1-1-1-1 wave crack1...
+[2020.11.23-22.49.36:106][893]LogAudioDerivedData: Display: Compression Quality for SoundWave /Game/Sounds/crack1.crack1 will be modified from 40 to 40.
+[2020.11.23-22.49.36:118][893]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 30408 while cooking SoundWave /Game/Sounds/crack1.crack1.
+[2020.11.23-22.49.36:121][893]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 C:\Users\NewUser\Desktop\KC_A_Assets\KC_A_Assets\CoinDropSounds\crack2.wav)
+[2020.11.23-22.49.36:123][893]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG10000-1-1-1-1-1 wave crack2...
+[2020.11.23-22.49.36:123][893]LogAudioDerivedData: Display: Compression Quality for SoundWave /Game/Sounds/crack2.crack2 will be modified from 40 to 40.
+[2020.11.23-22.49.36:143][893]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 24536 while cooking SoundWave /Game/Sounds/crack2.crack2.
+[2020.11.23-22.49.36:147][893]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 C:\Users\NewUser\Desktop\KC_A_Assets\KC_A_Assets\CoinDropSounds\crack3.wav)
+[2020.11.23-22.49.36:148][893]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG10000-1-1-1-1-1 wave crack3...
+[2020.11.23-22.49.36:148][893]LogAudioDerivedData: Display: Compression Quality for SoundWave /Game/Sounds/crack3.crack3 will be modified from 40 to 40.
+[2020.11.23-22.49.36:171][893]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 28144 while cooking SoundWave /Game/Sounds/crack3.crack3.
+[2020.11.23-22.49.36:175][893]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 C:\Users\NewUser\Desktop\KC_A_Assets\KC_A_Assets\CoinDropSounds\invclose.wav)
+[2020.11.23-22.49.36:179][893]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG10000-1-1-1-1-1 wave invclose...
+[2020.11.23-22.49.36:179][893]LogAudioDerivedData: Display: Compression Quality for SoundWave /Game/Sounds/invclose.invclose will be modified from 40 to 40.
+[2020.11.23-22.49.36:190][893]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 48156 while cooking SoundWave /Game/Sounds/invclose.invclose.
+[2020.11.23-22.49.36:195][893]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 C:\Users\NewUser\Desktop\KC_A_Assets\KC_A_Assets\CoinDropSounds\invopen.wav)
+[2020.11.23-22.49.36:196][893]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG10000-1-1-1-1-1 wave invopen...
+[2020.11.23-22.49.36:196][893]LogAudioDerivedData: Display: Compression Quality for SoundWave /Game/Sounds/invopen.invopen will be modified from 40 to 40.
+[2020.11.23-22.49.36:215][893]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 30836 while cooking SoundWave /Game/Sounds/invopen.invopen.
+[2020.11.23-22.49.36:225][893]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 C:\Users\NewUser\Desktop\KC_A_Assets\KC_A_Assets\CoinDropSounds\ms06.wav)
+[2020.11.23-22.49.36:227][893]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG10000-1-1-1-1-1 wave ms06...
+[2020.11.23-22.49.36:227][893]LogAudioDerivedData: Display: Compression Quality for SoundWave /Game/Sounds/ms06.ms06 will be modified from 40 to 40.
+[2020.11.23-22.49.36:240][893]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 88200 while cooking SoundWave /Game/Sounds/ms06.ms06.
+[2020.11.23-22.49.36:245][893]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 C:\Users\NewUser\Desktop\KC_A_Assets\KC_A_Assets\CoinDropSounds\ms13.wav)
+[2020.11.23-22.49.36:246][893]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG10000-1-1-1-1-1 wave ms13...
+[2020.11.23-22.49.36:246][893]LogAudioDerivedData: Display: Compression Quality for SoundWave /Game/Sounds/ms13.ms13 will be modified from 40 to 40.
+[2020.11.23-22.49.36:261][893]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 88200 while cooking SoundWave /Game/Sounds/ms13.ms13.
+[2020.11.23-22.49.36:265][893]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 C:\Users\NewUser\Desktop\KC_A_Assets\KC_A_Assets\CoinDropSounds\ms14.wav)
+[2020.11.23-22.49.36:267][893]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG10000-1-1-1-1-1 wave ms14...
+[2020.11.23-22.49.36:267][893]LogAudioDerivedData: Display: Compression Quality for SoundWave /Game/Sounds/ms14.ms14 will be modified from 40 to 40.
+[2020.11.23-22.49.36:279][893]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 88200 while cooking SoundWave /Game/Sounds/ms14.ms14.
+[2020.11.23-22.49.36:284][893]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 C:\Users\NewUser\Desktop\KC_A_Assets\KC_A_Assets\CoinDropSounds\ms21.wav)
+[2020.11.23-22.49.36:286][893]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG10000-1-1-1-1-1 wave ms21...
+[2020.11.23-22.49.36:286][893]LogAudioDerivedData: Display: Compression Quality for SoundWave /Game/Sounds/ms21.ms21 will be modified from 40 to 40.
+[2020.11.23-22.49.36:300][893]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 88200 while cooking SoundWave /Game/Sounds/ms21.ms21.
+[2020.11.23-22.49.36:305][893]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 C:\Users\NewUser\Desktop\KC_A_Assets\KC_A_Assets\CoinDropSounds\ms24.wav)
+[2020.11.23-22.49.36:307][893]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG10000-1-1-1-1-1 wave ms24...
+[2020.11.23-22.49.36:307][893]LogAudioDerivedData: Display: Compression Quality for SoundWave /Game/Sounds/ms24.ms24 will be modified from 40 to 40.
+[2020.11.23-22.49.36:322][893]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 88200 while cooking SoundWave /Game/Sounds/ms24.ms24.
+[2020.11.23-22.49.36:326][893]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 C:\Users\NewUser\Desktop\KC_A_Assets\KC_A_Assets\CoinDropSounds\ms27.wav)
+[2020.11.23-22.49.36:328][893]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG10000-1-1-1-1-1 wave ms27...
+[2020.11.23-22.49.36:328][893]LogAudioDerivedData: Display: Compression Quality for SoundWave /Game/Sounds/ms27.ms27 will be modified from 40 to 40.
+[2020.11.23-22.49.36:341][893]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 88200 while cooking SoundWave /Game/Sounds/ms27.ms27.
+[2020.11.23-22.49.36:346][893]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 C:\Users\NewUser\Desktop\KC_A_Assets\KC_A_Assets\CoinDropSounds\ms28.wav)
+[2020.11.23-22.49.36:348][893]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG10000-1-1-1-1-1 wave ms28...
+[2020.11.23-22.49.36:348][893]LogAudioDerivedData: Display: Compression Quality for SoundWave /Game/Sounds/ms28.ms28 will be modified from 40 to 40.
+[2020.11.23-22.49.36:364][893]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 88200 while cooking SoundWave /Game/Sounds/ms28.ms28.
+[2020.11.23-22.49.42:644][ 86]LogUObjectHash: Compacting FUObjectHashTables data took   0.71ms
+[2020.11.23-22.49.42:704][ 86]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/backicon" FILE="../../../../../../Kingdoms_Coin/Content/Textures/backicon.uasset" SILENT=true
+[2020.11.23-22.49.42:716][ 86]LogSavePackage: Moving '../../../../../../Kingdoms_Coin/Saved/backicon30931EBE447DEA214A3E3CA7B70929A7.tmp' to '../../../../../../Kingdoms_Coin/Content/Textures/backicon.uasset'
+[2020.11.23-22.49.42:729][ 86]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/BeginButton" FILE="../../../../../../Kingdoms_Coin/Content/Textures/BeginButton.uasset" SILENT=true
+[2020.11.23-22.49.42:741][ 86]LogSavePackage: Moving '../../../../../../Kingdoms_Coin/Saved/BeginButtonB511298748D28DE66C954CBA36C71FE7.tmp' to '../../../../../../Kingdoms_Coin/Content/Textures/BeginButton.uasset'
+[2020.11.23-22.49.42:745][ 86]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/C1_1" FILE="../../../../../../Kingdoms_Coin/Content/Textures/C1_1.uasset" SILENT=true
+[2020.11.23-22.49.42:758][ 86]LogSavePackage: Moving '../../../../../../Kingdoms_Coin/Saved/C1_1A81536FF4469EF87FEF4BF8255786CFB.tmp' to '../../../../../../Kingdoms_Coin/Content/Textures/C1_1.uasset'
+[2020.11.23-22.49.42:762][ 86]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/C1_2" FILE="../../../../../../Kingdoms_Coin/Content/Textures/C1_2.uasset" SILENT=true
+[2020.11.23-22.49.42:772][ 86]LogSavePackage: Moving '../../../../../../Kingdoms_Coin/Saved/C1_2B5C115DB407E2D5E43937E9BC94C237B.tmp' to '../../../../../../Kingdoms_Coin/Content/Textures/C1_2.uasset'
+[2020.11.23-22.49.42:775][ 86]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/C1_3" FILE="../../../../../../Kingdoms_Coin/Content/Textures/C1_3.uasset" SILENT=true
+[2020.11.23-22.49.42:784][ 86]LogSavePackage: Moving '../../../../../../Kingdoms_Coin/Saved/C1_396DD41FC4733D2622D917E96F05155A1.tmp' to '../../../../../../Kingdoms_Coin/Content/Textures/C1_3.uasset'
+[2020.11.23-22.49.42:787][ 86]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/C1_4" FILE="../../../../../../Kingdoms_Coin/Content/Textures/C1_4.uasset" SILENT=true
+[2020.11.23-22.49.42:796][ 86]LogSavePackage: Moving '../../../../../../Kingdoms_Coin/Saved/C1_47E849569404CA38086911EA08602CC6F.tmp' to '../../../../../../Kingdoms_Coin/Content/Textures/C1_4.uasset'
+[2020.11.23-22.49.42:799][ 86]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/+1R" FILE="../../../../../../Kingdoms_Coin/Content/Textures/+1R.uasset" SILENT=true
+[2020.11.23-22.49.42:809][ 86]LogSavePackage: Moving '../../../../../../Kingdoms_Coin/Saved/+1RD3CF75B44BADAA25099F76B45A918F53.tmp' to '../../../../../../Kingdoms_Coin/Content/Textures/+1R.uasset'
+[2020.11.23-22.49.42:812][ 86]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/+1Y" FILE="../../../../../../Kingdoms_Coin/Content/Textures/+1Y.uasset" SILENT=true
+[2020.11.23-22.49.42:821][ 86]LogSavePackage: Moving '../../../../../../Kingdoms_Coin/Saved/+1Y2998B90F4588426CEE01698A8E8F7ED0.tmp' to '../../../../../../Kingdoms_Coin/Content/Textures/+1Y.uasset'
+[2020.11.23-22.49.42:824][ 86]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/+2R" FILE="../../../../../../Kingdoms_Coin/Content/Textures/+2R.uasset" SILENT=true
+[2020.11.23-22.49.42:833][ 86]LogSavePackage: Moving '../../../../../../Kingdoms_Coin/Saved/+2R3C22B1994E189AB080244D998EFEDDCB.tmp' to '../../../../../../Kingdoms_Coin/Content/Textures/+2R.uasset'
+[2020.11.23-22.49.42:836][ 86]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/+2Y" FILE="../../../../../../Kingdoms_Coin/Content/Textures/+2Y.uasset" SILENT=true
+[2020.11.23-22.49.42:845][ 86]LogSavePackage: Moving '../../../../../../Kingdoms_Coin/Saved/+2Y572A84BE4FA1B5E166CB639965D9F99E.tmp' to '../../../../../../Kingdoms_Coin/Content/Textures/+2Y.uasset'
+[2020.11.23-22.49.42:848][ 86]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/+4R" FILE="../../../../../../Kingdoms_Coin/Content/Textures/+4R.uasset" SILENT=true
+[2020.11.23-22.49.42:857][ 86]LogSavePackage: Moving '../../../../../../Kingdoms_Coin/Saved/+4R08159E9540F3F9293AC2DA8FA4525B03.tmp' to '../../../../../../Kingdoms_Coin/Content/Textures/+4R.uasset'
+[2020.11.23-22.49.42:860][ 86]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/+4Y" FILE="../../../../../../Kingdoms_Coin/Content/Textures/+4Y.uasset" SILENT=true
+[2020.11.23-22.49.42:869][ 86]LogSavePackage: Moving '../../../../../../Kingdoms_Coin/Saved/+4Y69D236464E6C6B5A30A942AE207F88A8.tmp' to '../../../../../../Kingdoms_Coin/Content/Textures/+4Y.uasset'
+[2020.11.23-22.49.42:872][ 86]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/+8R" FILE="../../../../../../Kingdoms_Coin/Content/Textures/+8R.uasset" SILENT=true
+[2020.11.23-22.49.42:882][ 86]LogSavePackage: Moving '../../../../../../Kingdoms_Coin/Saved/+8R064AF3B546F2D19CFAB988B02D2ABFA6.tmp' to '../../../../../../Kingdoms_Coin/Content/Textures/+8R.uasset'
+[2020.11.23-22.49.42:884][ 86]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/+8Y" FILE="../../../../../../Kingdoms_Coin/Content/Textures/+8Y.uasset" SILENT=true
+[2020.11.23-22.49.42:897][ 86]LogSavePackage: Moving '../../../../../../Kingdoms_Coin/Saved/+8YCE0DD73B4EC3F529FD0E70B33110B7F6.tmp' to '../../../../../../Kingdoms_Coin/Content/Textures/+8Y.uasset'
+[2020.11.23-22.49.42:904][ 86]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/A_1" FILE="../../../../../../Kingdoms_Coin/Content/Textures/A_1.uasset" SILENT=true
+[2020.11.23-22.49.42:913][ 86]LogSavePackage: Moving '../../../../../../Kingdoms_Coin/Saved/A_10BF235CC4A4A26AF40DA63BC6AA31AFE.tmp' to '../../../../../../Kingdoms_Coin/Content/Textures/A_1.uasset'
+[2020.11.23-22.49.42:919][ 86]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/Games" FILE="../../../../../../Kingdoms_Coin/Content/Textures/Games.uasset" SILENT=true
+[2020.11.23-22.49.42:932][ 86]LogSavePackage: Moving '../../../../../../Kingdoms_Coin/Saved/GamesB03767A94CF5DA7B4A942D8C84A33864.tmp' to '../../../../../../Kingdoms_Coin/Content/Textures/Games.uasset'
+[2020.11.23-22.49.42:935][ 86]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/hand_08" FILE="../../../../../../Kingdoms_Coin/Content/Textures/hand_08.uasset" SILENT=true
+[2020.11.23-22.49.42:945][ 86]LogSavePackage: Moving '../../../../../../Kingdoms_Coin/Saved/hand_08CF55303C4A6DA6071186BAB49AD86C32.tmp' to '../../../../../../Kingdoms_Coin/Content/Textures/hand_08.uasset'
+[2020.11.23-22.49.42:952][ 86]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/KC_1" FILE="../../../../../../Kingdoms_Coin/Content/Textures/KC_1.uasset" SILENT=true
+[2020.11.23-22.49.42:964][ 86]LogSavePackage: Moving '../../../../../../Kingdoms_Coin/Saved/KC_1AAF3083C4DBBA3301DFD6B849CB3124F.tmp' to '../../../../../../Kingdoms_Coin/Content/Textures/KC_1.uasset'
+[2020.11.23-22.49.42:967][ 86]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/L_A" FILE="../../../../../../Kingdoms_Coin/Content/Textures/L_A.uasset" SILENT=true
+[2020.11.23-22.49.42:977][ 86]LogSavePackage: Moving '../../../../../../Kingdoms_Coin/Saved/L_AFE76644246B396246BDCBD9CD00C08EC.tmp' to '../../../../../../Kingdoms_Coin/Content/Textures/L_A.uasset'
+[2020.11.23-22.49.42:980][ 86]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/L_A_P" FILE="../../../../../../Kingdoms_Coin/Content/Textures/L_A_P.uasset" SILENT=true
+[2020.11.23-22.49.42:990][ 86]LogSavePackage: Moving '../../../../../../Kingdoms_Coin/Saved/L_A_P462B96864B3DBCA3499D458FA4B8B7AE.tmp' to '../../../../../../Kingdoms_Coin/Content/Textures/L_A_P.uasset'
+[2020.11.23-22.49.42:994][ 86]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/M_B" FILE="../../../../../../Kingdoms_Coin/Content/Textures/M_B.uasset" SILENT=true
+[2020.11.23-22.49.43:003][ 86]LogSavePackage: Moving '../../../../../../Kingdoms_Coin/Saved/M_B43127F7644EBA3E6E2AB869FD7827D12.tmp' to '../../../../../../Kingdoms_Coin/Content/Textures/M_B.uasset'
+[2020.11.23-22.49.43:006][ 86]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/M_B_P" FILE="../../../../../../Kingdoms_Coin/Content/Textures/M_B_P.uasset" SILENT=true
+[2020.11.23-22.49.43:014][ 86]LogSavePackage: Moving '../../../../../../Kingdoms_Coin/Saved/M_B_PA059080646782E284874F59357B02E4B.tmp' to '../../../../../../Kingdoms_Coin/Content/Textures/M_B_P.uasset'
+[2020.11.23-22.49.43:022][ 86]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/MatchOptions" FILE="../../../../../../Kingdoms_Coin/Content/Textures/MatchOptions.uasset" SILENT=true
+[2020.11.23-22.49.43:034][ 86]LogSavePackage: Moving '../../../../../../Kingdoms_Coin/Saved/MatchOptions8769E0654ADC401BAA1FD0827128B611.tmp' to '../../../../../../Kingdoms_Coin/Content/Textures/MatchOptions.uasset'
+[2020.11.23-22.49.43:041][ 86]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/MatchOptions2" FILE="../../../../../../Kingdoms_Coin/Content/Textures/MatchOptions2.uasset" SILENT=true
+[2020.11.23-22.49.43:052][ 86]LogSavePackage: Moving '../../../../../../Kingdoms_Coin/Saved/MatchOptions2166D2E294E96D537ECD2F3A7ACD97CB9.tmp' to '../../../../../../Kingdoms_Coin/Content/Textures/MatchOptions2.uasset'
+[2020.11.23-22.49.43:056][ 86]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/MENU_Icon" FILE="../../../../../../Kingdoms_Coin/Content/Textures/MENU_Icon.uasset" SILENT=true
+[2020.11.23-22.49.43:066][ 86]LogSavePackage: Moving '../../../../../../Kingdoms_Coin/Saved/MENU_IconBA13011642822AA9D8DD53B495743C42.tmp' to '../../../../../../Kingdoms_Coin/Content/Textures/MENU_Icon.uasset'
+[2020.11.23-22.49.43:069][ 86]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/MuteMusic" FILE="../../../../../../Kingdoms_Coin/Content/Textures/MuteMusic.uasset" SILENT=true
+[2020.11.23-22.49.43:078][ 86]LogSavePackage: Moving '../../../../../../Kingdoms_Coin/Saved/MuteMusic6540017244E1BC0886B190891512EAA0.tmp' to '../../../../../../Kingdoms_Coin/Content/Textures/MuteMusic.uasset'
+[2020.11.23-22.49.43:082][ 86]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/MuteSoundFX" FILE="../../../../../../Kingdoms_Coin/Content/Textures/MuteSoundFX.uasset" SILENT=true
+[2020.11.23-22.49.43:091][ 86]LogSavePackage: Moving '../../../../../../Kingdoms_Coin/Saved/MuteSoundFX5758AEDA4F4F9805500164B93666C80D.tmp' to '../../../../../../Kingdoms_Coin/Content/Textures/MuteSoundFX.uasset'
+[2020.11.23-22.49.43:094][ 86]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/NC_1" FILE="../../../../../../Kingdoms_Coin/Content/Textures/NC_1.uasset" SILENT=true
+[2020.11.23-22.49.43:105][ 86]LogSavePackage: Moving '../../../../../../Kingdoms_Coin/Saved/NC_1ABBDE066481DDB19A4AD3BAE5D1A6126.tmp' to '../../../../../../Kingdoms_Coin/Content/Textures/NC_1.uasset'
+[2020.11.23-22.49.43:109][ 86]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/NO_Icon" FILE="../../../../../../Kingdoms_Coin/Content/Textures/NO_Icon.uasset" SILENT=true
+[2020.11.23-22.49.43:121][ 86]LogSavePackage: Moving '../../../../../../Kingdoms_Coin/Saved/NO_Icon9D8C4F694085DF6571218A96B53E7924.tmp' to '../../../../../../Kingdoms_Coin/Content/Textures/NO_Icon.uasset'
+[2020.11.23-22.49.43:124][ 86]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/Offline" FILE="../../../../../../Kingdoms_Coin/Content/Textures/Offline.uasset" SILENT=true
+[2020.11.23-22.49.43:134][ 86]LogSavePackage: Moving '../../../../../../Kingdoms_Coin/Saved/OfflineFA71A95A4AD9E57A4B81B19EF29DF21D.tmp' to '../../../../../../Kingdoms_Coin/Content/Textures/Offline.uasset'
+[2020.11.23-22.49.43:137][ 86]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/Online" FILE="../../../../../../Kingdoms_Coin/Content/Textures/Online.uasset" SILENT=true
+[2020.11.23-22.49.43:147][ 86]LogSavePackage: Moving '../../../../../../Kingdoms_Coin/Saved/Online9221FF5A440C6D66F865AF924C40B913.tmp' to '../../../../../../Kingdoms_Coin/Content/Textures/Online.uasset'
+[2020.11.23-22.49.43:151][ 86]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/Options_Icon" FILE="../../../../../../Kingdoms_Coin/Content/Textures/Options_Icon.uasset" SILENT=true
+[2020.11.23-22.49.43:161][ 86]LogSavePackage: Moving '../../../../../../Kingdoms_Coin/Saved/Options_Icon458431E74FDF8F41A912A19A82DCAD0A.tmp' to '../../../../../../Kingdoms_Coin/Content/Textures/Options_Icon.uasset'
+[2020.11.23-22.49.43:170][ 86]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/OptionsButton" FILE="../../../../../../Kingdoms_Coin/Content/Textures/OptionsButton.uasset" SILENT=true
+[2020.11.23-22.49.43:183][ 86]LogSavePackage: Moving '../../../../../../Kingdoms_Coin/Saved/OptionsButton07058F314447A361E76B67B3ADD265CA.tmp' to '../../../../../../Kingdoms_Coin/Content/Textures/OptionsButton.uasset'
+[2020.11.23-22.49.43:188][ 86]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/P1_1" FILE="../../../../../../Kingdoms_Coin/Content/Textures/P1_1.uasset" SILENT=true
+[2020.11.23-22.49.43:197][ 86]LogSavePackage: Moving '../../../../../../Kingdoms_Coin/Saved/P1_1B7360BC546B18C51D6F4EEA83DB33FBB.tmp' to '../../../../../../Kingdoms_Coin/Content/Textures/P1_1.uasset'
+[2020.11.23-22.49.43:202][ 86]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/P1_2" FILE="../../../../../../Kingdoms_Coin/Content/Textures/P1_2.uasset" SILENT=true
+[2020.11.23-22.49.43:211][ 86]LogSavePackage: Moving '../../../../../../Kingdoms_Coin/Saved/P1_2FD8C7F6949E3551C574EB69729DCC897.tmp' to '../../../../../../Kingdoms_Coin/Content/Textures/P1_2.uasset'
+[2020.11.23-22.49.43:219][ 86]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/P1_Wins" FILE="../../../../../../Kingdoms_Coin/Content/Textures/P1_Wins.uasset" SILENT=true
+[2020.11.23-22.49.43:232][ 86]LogSavePackage: Moving '../../../../../../Kingdoms_Coin/Saved/P1_Wins8814B6B44AA13BFF6F51E4ABBC9304D5.tmp' to '../../../../../../Kingdoms_Coin/Content/Textures/P1_Wins.uasset'
+[2020.11.23-22.49.43:236][ 86]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/P2_1" FILE="../../../../../../Kingdoms_Coin/Content/Textures/P2_1.uasset" SILENT=true
+[2020.11.23-22.49.43:248][ 86]LogSavePackage: Moving '../../../../../../Kingdoms_Coin/Saved/P2_1EEBDC36C4B7393B23044FEB9AE2AD695.tmp' to '../../../../../../Kingdoms_Coin/Content/Textures/P2_1.uasset'
+[2020.11.23-22.49.43:252][ 86]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/P2_2" FILE="../../../../../../Kingdoms_Coin/Content/Textures/P2_2.uasset" SILENT=true
+[2020.11.23-22.49.43:261][ 86]LogSavePackage: Moving '../../../../../../Kingdoms_Coin/Saved/P2_2C9F96F0543908A211883D782F3FB2D0C.tmp' to '../../../../../../Kingdoms_Coin/Content/Textures/P2_2.uasset'
+[2020.11.23-22.49.43:270][ 86]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/P2_Wins" FILE="../../../../../../Kingdoms_Coin/Content/Textures/P2_Wins.uasset" SILENT=true
+[2020.11.23-22.49.43:283][ 86]LogSavePackage: Moving '../../../../../../Kingdoms_Coin/Saved/P2_Wins9A93105F48A460590625B59BDDBDB1F6.tmp' to '../../../../../../Kingdoms_Coin/Content/Textures/P2_Wins.uasset'
+[2020.11.23-22.49.43:287][ 86]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/PAUSED_Icon" FILE="../../../../../../Kingdoms_Coin/Content/Textures/PAUSED_Icon.uasset" SILENT=true
+[2020.11.23-22.49.43:297][ 86]LogSavePackage: Moving '../../../../../../Kingdoms_Coin/Saved/PAUSED_IconC7DE9CA84DAA13C00446ED8DC77C74EA.tmp' to '../../../../../../Kingdoms_Coin/Content/Textures/PAUSED_Icon.uasset'
+[2020.11.23-22.49.43:301][ 86]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/QUIT" FILE="../../../../../../Kingdoms_Coin/Content/Textures/QUIT.uasset" SILENT=true
+[2020.11.23-22.49.43:310][ 86]LogSavePackage: Moving '../../../../../../Kingdoms_Coin/Saved/QUIT76B0B2B94D72EB5A03517EA2D6D132B6.tmp' to '../../../../../../Kingdoms_Coin/Content/Textures/QUIT.uasset'
+[2020.11.23-22.49.43:315][ 86]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/R_A" FILE="../../../../../../Kingdoms_Coin/Content/Textures/R_A.uasset" SILENT=true
+[2020.11.23-22.49.43:324][ 86]LogSavePackage: Moving '../../../../../../Kingdoms_Coin/Saved/R_AC61FB37D453719A515EBA7992EED8480.tmp' to '../../../../../../Kingdoms_Coin/Content/Textures/R_A.uasset'
+[2020.11.23-22.49.43:327][ 86]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/R_A_P" FILE="../../../../../../Kingdoms_Coin/Content/Textures/R_A_P.uasset" SILENT=true
+[2020.11.23-22.49.43:336][ 86]LogSavePackage: Moving '../../../../../../Kingdoms_Coin/Saved/R_A_P325D2E8C494D9C903DC03384DD2AC19F.tmp' to '../../../../../../Kingdoms_Coin/Content/Textures/R_A_P.uasset'
+[2020.11.23-22.49.43:341][ 86]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/SoundIcon" FILE="../../../../../../Kingdoms_Coin/Content/Textures/SoundIcon.uasset" SILENT=true
+[2020.11.23-22.49.43:353][ 86]LogSavePackage: Moving '../../../../../../Kingdoms_Coin/Saved/SoundIcon824124754BDE5BA1B5317CAD2A47F049.tmp' to '../../../../../../Kingdoms_Coin/Content/Textures/SoundIcon.uasset'
+[2020.11.23-22.49.43:358][ 86]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/SoundIcon2" FILE="../../../../../../Kingdoms_Coin/Content/Textures/SoundIcon2.uasset" SILENT=true
+[2020.11.23-22.49.43:369][ 86]LogSavePackage: Moving '../../../../../../Kingdoms_Coin/Saved/SoundIcon2282EC4F145301FF1381D989B19E0AD81.tmp' to '../../../../../../Kingdoms_Coin/Content/Textures/SoundIcon2.uasset'
+[2020.11.23-22.49.43:378][ 86]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/StartButton" FILE="../../../../../../Kingdoms_Coin/Content/Textures/StartButton.uasset" SILENT=true
+[2020.11.23-22.49.43:389][ 86]LogSavePackage: Moving '../../../../../../Kingdoms_Coin/Saved/StartButtonDAB127D840ED1F881A495D8326C68B1E.tmp' to '../../../../../../Kingdoms_Coin/Content/Textures/StartButton.uasset'
+[2020.11.23-22.49.43:392][ 86]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/Sw2_1" FILE="../../../../../../Kingdoms_Coin/Content/Textures/Sw2_1.uasset" SILENT=true
+[2020.11.23-22.49.43:402][ 86]LogSavePackage: Moving '../../../../../../Kingdoms_Coin/Saved/Sw2_1FCF7C63145F1649300BFAC929B0FB604.tmp' to '../../../../../../Kingdoms_Coin/Content/Textures/Sw2_1.uasset'
+[2020.11.23-22.49.43:404][ 86]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/Sw2_2" FILE="../../../../../../Kingdoms_Coin/Content/Textures/Sw2_2.uasset" SILENT=true
+[2020.11.23-22.49.43:413][ 86]LogSavePackage: Moving '../../../../../../Kingdoms_Coin/Saved/Sw2_2E9FC0C194BE5F1F207BCC8A426BD3054.tmp' to '../../../../../../Kingdoms_Coin/Content/Textures/Sw2_2.uasset'
+[2020.11.23-22.49.43:416][ 86]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/Sw2_3" FILE="../../../../../../Kingdoms_Coin/Content/Textures/Sw2_3.uasset" SILENT=true
+[2020.11.23-22.49.43:425][ 86]LogSavePackage: Moving '../../../../../../Kingdoms_Coin/Saved/Sw2_34535A63448EF417E0CBE67A11EBB44DD.tmp' to '../../../../../../Kingdoms_Coin/Content/Textures/Sw2_3.uasset'
+[2020.11.23-22.49.43:428][ 86]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/WH1" FILE="../../../../../../Kingdoms_Coin/Content/Textures/WH1.uasset" SILENT=true
+[2020.11.23-22.49.43:437][ 86]LogSavePackage: Moving '../../../../../../Kingdoms_Coin/Saved/WH1666F656943480786B71D4EBE47F03F5C.tmp' to '../../../../../../Kingdoms_Coin/Content/Textures/WH1.uasset'
+[2020.11.23-22.49.43:440][ 86]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/WH2" FILE="../../../../../../Kingdoms_Coin/Content/Textures/WH2.uasset" SILENT=true
+[2020.11.23-22.49.43:448][ 86]LogSavePackage: Moving '../../../../../../Kingdoms_Coin/Saved/WH20F6A745345F8F3C3AC1380B433C6D0D0.tmp' to '../../../../../../Kingdoms_Coin/Content/Textures/WH2.uasset'
+[2020.11.23-22.49.43:452][ 86]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/WH3" FILE="../../../../../../Kingdoms_Coin/Content/Textures/WH3.uasset" SILENT=true
+[2020.11.23-22.49.43:460][ 86]LogSavePackage: Moving '../../../../../../Kingdoms_Coin/Saved/WH3485A3B0E429DB67FA9D154867A839284.tmp' to '../../../../../../Kingdoms_Coin/Content/Textures/WH3.uasset'
+[2020.11.23-22.49.43:464][ 86]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/WH4" FILE="../../../../../../Kingdoms_Coin/Content/Textures/WH4.uasset" SILENT=true
+[2020.11.23-22.49.43:472][ 86]LogSavePackage: Moving '../../../../../../Kingdoms_Coin/Saved/WH4FD473A9E434C0E2291BB2C932C014EB0.tmp' to '../../../../../../Kingdoms_Coin/Content/Textures/WH4.uasset'
+[2020.11.23-22.49.43:477][ 86]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/YES_Icon" FILE="../../../../../../Kingdoms_Coin/Content/Textures/YES_Icon.uasset" SILENT=true
+[2020.11.23-22.49.43:486][ 86]LogSavePackage: Moving '../../../../../../Kingdoms_Coin/Saved/YES_IconDCB88633499A14952233D3967944F81A.tmp' to '../../../../../../Kingdoms_Coin/Content/Textures/YES_Icon.uasset'
+[2020.11.23-22.49.43:492][ 86]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Backgrounds/sky_fc" FILE="../../../../../../Kingdoms_Coin/Content/Backgrounds/sky_fc.uasset" SILENT=true
+[2020.11.23-22.49.43:505][ 86]LogSavePackage: Moving '../../../../../../Kingdoms_Coin/Saved/sky_fc3C4296944F594412470193B23BC7D15F.tmp' to '../../../../../../Kingdoms_Coin/Content/Backgrounds/sky_fc.uasset'
+[2020.11.23-22.49.43:510][ 86]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Backgrounds/clouds_front_fc" FILE="../../../../../../Kingdoms_Coin/Content/Backgrounds/clouds_front_fc.uasset" SILENT=true
+[2020.11.23-22.49.43:521][ 86]LogSavePackage: Moving '../../../../../../Kingdoms_Coin/Saved/clouds_front_fcD9C2A20845092EA5150182B37D56647C.tmp' to '../../../../../../Kingdoms_Coin/Content/Backgrounds/clouds_front_fc.uasset'
+[2020.11.23-22.49.43:527][ 86]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Backgrounds/clouds_front_t_fc" FILE="../../../../../../Kingdoms_Coin/Content/Backgrounds/clouds_front_t_fc.uasset" SILENT=true
+[2020.11.23-22.49.43:539][ 86]LogSavePackage: Moving '../../../../../../Kingdoms_Coin/Saved/clouds_front_t_fcD82654FD486A9130C8BA638654610534.tmp' to '../../../../../../Kingdoms_Coin/Content/Backgrounds/clouds_front_t_fc.uasset'
+[2020.11.23-22.49.43:545][ 86]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Backgrounds/clouds_mid_fc" FILE="../../../../../../Kingdoms_Coin/Content/Backgrounds/clouds_mid_fc.uasset" SILENT=true
+[2020.11.23-22.49.43:556][ 86]LogSavePackage: Moving '../../../../../../Kingdoms_Coin/Saved/clouds_mid_fc4C823242485C8A42E33FCD8874344B71.tmp' to '../../../../../../Kingdoms_Coin/Content/Backgrounds/clouds_mid_fc.uasset'
+[2020.11.23-22.49.43:563][ 86]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Backgrounds/clouds_mid_t_fc" FILE="../../../../../../Kingdoms_Coin/Content/Backgrounds/clouds_mid_t_fc.uasset" SILENT=true
+[2020.11.23-22.49.43:577][ 86]LogSavePackage: Moving '../../../../../../Kingdoms_Coin/Saved/clouds_mid_t_fc97A97FB94140EB1B35DC4F94BFB237F2.tmp' to '../../../../../../Kingdoms_Coin/Content/Backgrounds/clouds_mid_t_fc.uasset'
+[2020.11.23-22.49.43:584][ 86]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Backgrounds/Coin-Drop-Background" FILE="../../../../../../Kingdoms_Coin/Content/Backgrounds/Coin-Drop-Background.uasset" SILENT=true
+[2020.11.23-22.49.43:624][ 86]LogSavePackage: Moving '../../../../../../Kingdoms_Coin/Saved/Coin-Drop-BackgroundE5EB87374A8DB2B6C160A2BA38EE6E7C.tmp' to '../../../../../../Kingdoms_Coin/Content/Backgrounds/Coin-Drop-Background.uasset'
+[2020.11.23-22.49.43:627][ 86]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Backgrounds/D_11" FILE="../../../../../../Kingdoms_Coin/Content/Backgrounds/D_11.uasset" SILENT=true
+[2020.11.23-22.49.43:636][ 86]LogSavePackage: Moving '../../../../../../Kingdoms_Coin/Saved/D_118E59E7EA4FF3722875F2298BB04458AF.tmp' to '../../../../../../Kingdoms_Coin/Content/Backgrounds/D_11.uasset'
+[2020.11.23-22.49.43:644][ 86]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Backgrounds/D_11_2" FILE="../../../../../../Kingdoms_Coin/Content/Backgrounds/D_11_2.uasset" SILENT=true
+[2020.11.23-22.49.43:656][ 86]LogSavePackage: Moving '../../../../../../Kingdoms_Coin/Saved/D_11_2CE6D61DC4BF742999D6895A285916A48.tmp' to '../../../../../../Kingdoms_Coin/Content/Backgrounds/D_11_2.uasset'
+[2020.11.23-22.49.43:659][ 86]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Backgrounds/D_12" FILE="../../../../../../Kingdoms_Coin/Content/Backgrounds/D_12.uasset" SILENT=true
+[2020.11.23-22.49.43:670][ 86]LogSavePackage: Moving '../../../../../../Kingdoms_Coin/Saved/D_1227FEE2C24F01C030234441B882B4BDF7.tmp' to '../../../../../../Kingdoms_Coin/Content/Backgrounds/D_12.uasset'
+[2020.11.23-22.49.43:678][ 86]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Backgrounds/D_12_2" FILE="../../../../../../Kingdoms_Coin/Content/Backgrounds/D_12_2.uasset" SILENT=true
+[2020.11.23-22.49.43:689][ 86]LogSavePackage: Moving '../../../../../../Kingdoms_Coin/Saved/D_12_283F3911C420311EBE8335CB479B2E1C7.tmp' to '../../../../../../Kingdoms_Coin/Content/Backgrounds/D_12_2.uasset'
+[2020.11.23-22.49.43:695][ 86]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Backgrounds/far_mountains_fc" FILE="../../../../../../Kingdoms_Coin/Content/Backgrounds/far_mountains_fc.uasset" SILENT=true
+[2020.11.23-22.49.43:707][ 86]LogSavePackage: Moving '../../../../../../Kingdoms_Coin/Saved/far_mountains_fc5969F3064DB47137C7A9BABCDB5CF38C.tmp' to '../../../../../../Kingdoms_Coin/Content/Backgrounds/far_mountains_fc.uasset'
+[2020.11.23-22.49.43:713][ 86]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Backgrounds/FullBoarder" FILE="../../../../../../Kingdoms_Coin/Content/Backgrounds/FullBoarder.uasset" SILENT=true
+[2020.11.23-22.49.43:755][ 86]LogSavePackage: Moving '../../../../../../Kingdoms_Coin/Saved/FullBoarder66AC9DF8402FAEAF4DA1958B528F0710.tmp' to '../../../../../../Kingdoms_Coin/Content/Backgrounds/FullBoarder.uasset'
+[2020.11.23-22.49.43:766][ 86]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Backgrounds/grassy_mountains_2" FILE="../../../../../../Kingdoms_Coin/Content/Backgrounds/grassy_mountains_2.uasset" SILENT=true
+[2020.11.23-22.49.43:780][ 86]LogSavePackage: Moving '../../../../../../Kingdoms_Coin/Saved/grassy_mountains_28786F7DB41CD679435C084AAD82B0DA0.tmp' to '../../../../../../Kingdoms_Coin/Content/Backgrounds/grassy_mountains_2.uasset'
+[2020.11.23-22.49.43:786][ 86]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Backgrounds/hill" FILE="../../../../../../Kingdoms_Coin/Content/Backgrounds/hill.uasset" SILENT=true
+[2020.11.23-22.49.43:796][ 86]LogSavePackage: Moving '../../../../../../Kingdoms_Coin/Saved/hill69169E8A4A6BB0140B47469BA065D79C.tmp' to '../../../../../../Kingdoms_Coin/Content/Backgrounds/hill.uasset'
+[2020.11.23-22.49.43:802][ 86]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Backgrounds/InnerBG" FILE="../../../../../../Kingdoms_Coin/Content/Backgrounds/InnerBG.uasset" SILENT=true
+[2020.11.23-22.49.43:846][ 86]LogSavePackage: Moving '../../../../../../Kingdoms_Coin/Saved/InnerBGDE1287754E2C7410F79D599CA6159941.tmp' to '../../../../../../Kingdoms_Coin/Content/Backgrounds/InnerBG.uasset'
+[2020.11.23-22.49.43:851][ 86]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sounds/SFX-crystalcollect" FILE="../../../../../../Kingdoms_Coin/Content/Sounds/SFX-crystalcollect.uasset" SILENT=true
+[2020.11.23-22.49.43:862][ 86]LogSavePackage: Moving '../../../../../../Kingdoms_Coin/Saved/SFX-crystalcollect86F8E06C43C1B0C7A73BFD9070363A7F.tmp' to '../../../../../../Kingdoms_Coin/Content/Sounds/SFX-crystalcollect.uasset'
+[2020.11.23-22.49.43:868][ 86]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sounds/spin1" FILE="../../../../../../Kingdoms_Coin/Content/Sounds/spin1.uasset" SILENT=true
+[2020.11.23-22.49.43:877][ 86]LogSavePackage: Moving '../../../../../../Kingdoms_Coin/Saved/spin12B0051584636AE70D01BD7B69588B77C.tmp' to '../../../../../../Kingdoms_Coin/Content/Sounds/spin1.uasset'
+[2020.11.23-22.49.43:883][ 86]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sounds/stonebang" FILE="../../../../../../Kingdoms_Coin/Content/Sounds/stonebang.uasset" SILENT=true
+[2020.11.23-22.49.43:894][ 86]LogSavePackage: Moving '../../../../../../Kingdoms_Coin/Saved/stonebangAAA56ADB49E5121223DB5E86697DD125.tmp' to '../../../../../../Kingdoms_Coin/Content/Sounds/stonebang.uasset'
+[2020.11.23-22.49.43:899][ 86]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sounds/takekey" FILE="../../../../../../Kingdoms_Coin/Content/Sounds/takekey.uasset" SILENT=true
+[2020.11.23-22.49.43:911][ 86]LogSavePackage: Moving '../../../../../../Kingdoms_Coin/Saved/takekey0B4B3358424B8B68616AD9807818F1BE.tmp' to '../../../../../../Kingdoms_Coin/Content/Sounds/takekey.uasset'
+[2020.11.23-22.49.43:917][ 86]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sounds/zoomin" FILE="../../../../../../Kingdoms_Coin/Content/Sounds/zoomin.uasset" SILENT=true
+[2020.11.23-22.49.43:927][ 86]LogSavePackage: Moving '../../../../../../Kingdoms_Coin/Saved/zoomin6229A88748FE8AFB772C978C0B0C9E6B.tmp' to '../../../../../../Kingdoms_Coin/Content/Sounds/zoomin.uasset'
+[2020.11.23-22.49.43:933][ 86]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sounds/zoomout" FILE="../../../../../../Kingdoms_Coin/Content/Sounds/zoomout.uasset" SILENT=true
+[2020.11.23-22.49.43:943][ 86]LogSavePackage: Moving '../../../../../../Kingdoms_Coin/Saved/zoomoutF052EBDF4F7ECD6C9F12F0B06644E3E7.tmp' to '../../../../../../Kingdoms_Coin/Content/Sounds/zoomout.uasset'
+[2020.11.23-22.49.43:948][ 86]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sounds/coin1" FILE="../../../../../../Kingdoms_Coin/Content/Sounds/coin1.uasset" SILENT=true
+[2020.11.23-22.49.43:962][ 86]LogSavePackage: Moving '../../../../../../Kingdoms_Coin/Saved/coin12A02FCE14E114E4D27BB7B80263B1D24.tmp' to '../../../../../../Kingdoms_Coin/Content/Sounds/coin1.uasset'
+[2020.11.23-22.49.43:967][ 86]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sounds/coin2" FILE="../../../../../../Kingdoms_Coin/Content/Sounds/coin2.uasset" SILENT=true
+[2020.11.23-22.49.43:977][ 86]LogSavePackage: Moving '../../../../../../Kingdoms_Coin/Saved/coin26A6DF1C6445AC27EA11000A96A7A12DB.tmp' to '../../../../../../Kingdoms_Coin/Content/Sounds/coin2.uasset'
+[2020.11.23-22.49.43:983][ 86]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sounds/coin3" FILE="../../../../../../Kingdoms_Coin/Content/Sounds/coin3.uasset" SILENT=true
+[2020.11.23-22.49.43:993][ 86]LogSavePackage: Moving '../../../../../../Kingdoms_Coin/Saved/coin3591D91FF4587DC33DA15C79426F622F2.tmp' to '../../../../../../Kingdoms_Coin/Content/Sounds/coin3.uasset'
+[2020.11.23-22.49.44:000][ 86]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sounds/crack1" FILE="../../../../../../Kingdoms_Coin/Content/Sounds/crack1.uasset" SILENT=true
+[2020.11.23-22.49.44:010][ 86]LogSavePackage: Moving '../../../../../../Kingdoms_Coin/Saved/crack1FCAD1A7C4FD3277BB3BAC2BFF31C2C9F.tmp' to '../../../../../../Kingdoms_Coin/Content/Sounds/crack1.uasset'
+[2020.11.23-22.49.44:015][ 86]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sounds/crack2" FILE="../../../../../../Kingdoms_Coin/Content/Sounds/crack2.uasset" SILENT=true
+[2020.11.23-22.49.44:025][ 86]LogSavePackage: Moving '../../../../../../Kingdoms_Coin/Saved/crack2D5A242044AAB04658CC0F38CB0E7D707.tmp' to '../../../../../../Kingdoms_Coin/Content/Sounds/crack2.uasset'
+[2020.11.23-22.49.44:031][ 86]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sounds/crack3" FILE="../../../../../../Kingdoms_Coin/Content/Sounds/crack3.uasset" SILENT=true
+[2020.11.23-22.49.44:042][ 86]LogSavePackage: Moving '../../../../../../Kingdoms_Coin/Saved/crack3A6A64C0047CD04D5D43A338EF0495A43.tmp' to '../../../../../../Kingdoms_Coin/Content/Sounds/crack3.uasset'
+[2020.11.23-22.49.44:048][ 86]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sounds/invclose" FILE="../../../../../../Kingdoms_Coin/Content/Sounds/invclose.uasset" SILENT=true
+[2020.11.23-22.49.44:057][ 86]LogSavePackage: Moving '../../../../../../Kingdoms_Coin/Saved/invcloseDD26A25F49C1B926A08510BBE7B0A118.tmp' to '../../../../../../Kingdoms_Coin/Content/Sounds/invclose.uasset'
+[2020.11.23-22.49.44:063][ 86]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sounds/invopen" FILE="../../../../../../Kingdoms_Coin/Content/Sounds/invopen.uasset" SILENT=true
+[2020.11.23-22.49.44:074][ 86]LogSavePackage: Moving '../../../../../../Kingdoms_Coin/Saved/invopen1E65C64C4CD5814A08650FA85B5C536F.tmp' to '../../../../../../Kingdoms_Coin/Content/Sounds/invopen.uasset'
+[2020.11.23-22.49.44:079][ 86]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sounds/ms06" FILE="../../../../../../Kingdoms_Coin/Content/Sounds/ms06.uasset" SILENT=true
+[2020.11.23-22.49.44:089][ 86]LogSavePackage: Moving '../../../../../../Kingdoms_Coin/Saved/ms069A259FC7469642FB6EEC6EAFEE197FC5.tmp' to '../../../../../../Kingdoms_Coin/Content/Sounds/ms06.uasset'
+[2020.11.23-22.49.44:095][ 86]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sounds/ms13" FILE="../../../../../../Kingdoms_Coin/Content/Sounds/ms13.uasset" SILENT=true
+[2020.11.23-22.49.44:108][ 86]LogSavePackage: Moving '../../../../../../Kingdoms_Coin/Saved/ms13B1B5146B4AFEB5843C67B0862074EB15.tmp' to '../../../../../../Kingdoms_Coin/Content/Sounds/ms13.uasset'
+[2020.11.23-22.49.44:117][ 86]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sounds/ms14" FILE="../../../../../../Kingdoms_Coin/Content/Sounds/ms14.uasset" SILENT=true
+[2020.11.23-22.49.44:128][ 86]LogSavePackage: Moving '../../../../../../Kingdoms_Coin/Saved/ms14AC1DC5FB46C56F6727CFDFA3E96DC686.tmp' to '../../../../../../Kingdoms_Coin/Content/Sounds/ms14.uasset'
+[2020.11.23-22.49.44:133][ 86]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sounds/ms21" FILE="../../../../../../Kingdoms_Coin/Content/Sounds/ms21.uasset" SILENT=true
+[2020.11.23-22.49.44:143][ 86]LogSavePackage: Moving '../../../../../../Kingdoms_Coin/Saved/ms21112251944558436CD79B41BA288E04F6.tmp' to '../../../../../../Kingdoms_Coin/Content/Sounds/ms21.uasset'
+[2020.11.23-22.49.44:149][ 86]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sounds/ms24" FILE="../../../../../../Kingdoms_Coin/Content/Sounds/ms24.uasset" SILENT=true
+[2020.11.23-22.49.44:159][ 86]LogSavePackage: Moving '../../../../../../Kingdoms_Coin/Saved/ms24EB0740BA4FF706E8EBEF4CB75AB9C1F2.tmp' to '../../../../../../Kingdoms_Coin/Content/Sounds/ms24.uasset'
+[2020.11.23-22.49.44:165][ 86]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sounds/ms27" FILE="../../../../../../Kingdoms_Coin/Content/Sounds/ms27.uasset" SILENT=true
+[2020.11.23-22.49.44:175][ 86]LogSavePackage: Moving '../../../../../../Kingdoms_Coin/Saved/ms274C7AD2EF44D551EB34E80794B24B7029.tmp' to '../../../../../../Kingdoms_Coin/Content/Sounds/ms27.uasset'
+[2020.11.23-22.49.44:180][ 86]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sounds/ms28" FILE="../../../../../../Kingdoms_Coin/Content/Sounds/ms28.uasset" SILENT=true
+[2020.11.23-22.49.44:190][ 86]LogSavePackage: Moving '../../../../../../Kingdoms_Coin/Saved/ms28E25BEC844FB6B71CDBAF7AB50FC8B319.tmp' to '../../../../../../Kingdoms_Coin/Content/Sounds/ms28.uasset'
+[2020.11.23-22.49.44:345][ 86]AssetCheck: New page: Asset Save: multiple assets
+[2020.11.23-22.49.44:345][ 86]LogContentValidation: Display: Validating Texture2D /Game/Textures/backicon.backicon
+[2020.11.23-22.49.44:345][ 86]LogContentValidation: Display: Validating Texture2D /Game/Textures/BeginButton.BeginButton
+[2020.11.23-22.49.44:345][ 86]LogContentValidation: Display: Validating Texture2D /Game/Textures/C1_1.C1_1
+[2020.11.23-22.49.44:345][ 86]LogContentValidation: Display: Validating Texture2D /Game/Textures/C1_2.C1_2
+[2020.11.23-22.49.44:345][ 86]LogContentValidation: Display: Validating Texture2D /Game/Textures/C1_3.C1_3
+[2020.11.23-22.49.44:345][ 86]LogContentValidation: Display: Validating Texture2D /Game/Textures/C1_4.C1_4
+[2020.11.23-22.49.44:345][ 86]LogContentValidation: Display: Validating Texture2D /Game/Textures/+1R.+1R
+[2020.11.23-22.49.44:345][ 86]LogContentValidation: Display: Validating Texture2D /Game/Textures/+1Y.+1Y
+[2020.11.23-22.49.44:345][ 86]LogContentValidation: Display: Validating Texture2D /Game/Textures/+2R.+2R
+[2020.11.23-22.49.44:345][ 86]LogContentValidation: Display: Validating Texture2D /Game/Textures/+2Y.+2Y
+[2020.11.23-22.49.44:345][ 86]LogContentValidation: Display: Validating Texture2D /Game/Textures/+4R.+4R
+[2020.11.23-22.49.44:345][ 86]LogContentValidation: Display: Validating Texture2D /Game/Textures/+4Y.+4Y
+[2020.11.23-22.49.44:345][ 86]LogContentValidation: Display: Validating Texture2D /Game/Textures/+8R.+8R
+[2020.11.23-22.49.44:345][ 86]LogContentValidation: Display: Validating Texture2D /Game/Textures/+8Y.+8Y
+[2020.11.23-22.49.44:345][ 86]LogContentValidation: Display: Validating Texture2D /Game/Textures/A_1.A_1
+[2020.11.23-22.49.44:345][ 86]LogContentValidation: Display: Validating Texture2D /Game/Textures/Games.Games
+[2020.11.23-22.49.44:345][ 86]LogContentValidation: Display: Validating Texture2D /Game/Textures/hand_08.hand_08
+[2020.11.23-22.49.44:345][ 86]LogContentValidation: Display: Validating Texture2D /Game/Textures/KC_1.KC_1
+[2020.11.23-22.49.44:345][ 86]LogContentValidation: Display: Validating Texture2D /Game/Textures/L_A.L_A
+[2020.11.23-22.49.44:345][ 86]LogContentValidation: Display: Validating Texture2D /Game/Textures/L_A_P.L_A_P
+[2020.11.23-22.49.44:345][ 86]LogContentValidation: Display: Validating Texture2D /Game/Textures/M_B.M_B
+[2020.11.23-22.49.44:345][ 86]LogContentValidation: Display: Validating Texture2D /Game/Textures/M_B_P.M_B_P
+[2020.11.23-22.49.44:345][ 86]LogContentValidation: Display: Validating Texture2D /Game/Textures/MatchOptions.MatchOptions
+[2020.11.23-22.49.44:345][ 86]LogContentValidation: Display: Validating Texture2D /Game/Textures/MatchOptions2.MatchOptions2
+[2020.11.23-22.49.44:345][ 86]LogContentValidation: Display: Validating Texture2D /Game/Textures/MENU_Icon.MENU_Icon
+[2020.11.23-22.49.44:346][ 86]LogContentValidation: Display: Validating Texture2D /Game/Textures/MuteMusic.MuteMusic
+[2020.11.23-22.49.44:346][ 86]LogContentValidation: Display: Validating Texture2D /Game/Textures/MuteSoundFX.MuteSoundFX
+[2020.11.23-22.49.44:346][ 86]LogContentValidation: Display: Validating Texture2D /Game/Textures/NC_1.NC_1
+[2020.11.23-22.49.44:346][ 86]LogContentValidation: Display: Validating Texture2D /Game/Textures/NO_Icon.NO_Icon
+[2020.11.23-22.49.44:346][ 86]LogContentValidation: Display: Validating Texture2D /Game/Textures/Offline.Offline
+[2020.11.23-22.49.44:346][ 86]LogContentValidation: Display: Validating Texture2D /Game/Textures/Online.Online
+[2020.11.23-22.49.44:346][ 86]LogContentValidation: Display: Validating Texture2D /Game/Textures/Options_Icon.Options_Icon
+[2020.11.23-22.49.44:346][ 86]LogContentValidation: Display: Validating Texture2D /Game/Textures/OptionsButton.OptionsButton
+[2020.11.23-22.49.44:346][ 86]LogContentValidation: Display: Validating Texture2D /Game/Textures/P1_1.P1_1
+[2020.11.23-22.49.44:346][ 86]LogContentValidation: Display: Validating Texture2D /Game/Textures/P1_2.P1_2
+[2020.11.23-22.49.44:346][ 86]LogContentValidation: Display: Validating Texture2D /Game/Textures/P1_Wins.P1_Wins
+[2020.11.23-22.49.44:346][ 86]LogContentValidation: Display: Validating Texture2D /Game/Textures/P2_1.P2_1
+[2020.11.23-22.49.44:346][ 86]LogContentValidation: Display: Validating Texture2D /Game/Textures/P2_2.P2_2
+[2020.11.23-22.49.44:346][ 86]LogContentValidation: Display: Validating Texture2D /Game/Textures/P2_Wins.P2_Wins
+[2020.11.23-22.49.44:346][ 86]LogContentValidation: Display: Validating Texture2D /Game/Textures/PAUSED_Icon.PAUSED_Icon
+[2020.11.23-22.49.44:346][ 86]LogContentValidation: Display: Validating Texture2D /Game/Textures/QUIT.QUIT
+[2020.11.23-22.49.44:346][ 86]LogContentValidation: Display: Validating Texture2D /Game/Textures/R_A.R_A
+[2020.11.23-22.49.44:346][ 86]LogContentValidation: Display: Validating Texture2D /Game/Textures/R_A_P.R_A_P
+[2020.11.23-22.49.44:346][ 86]LogContentValidation: Display: Validating Texture2D /Game/Textures/SoundIcon.SoundIcon
+[2020.11.23-22.49.44:346][ 86]LogContentValidation: Display: Validating Texture2D /Game/Textures/SoundIcon2.SoundIcon2
+[2020.11.23-22.49.44:346][ 86]LogContentValidation: Display: Validating Texture2D /Game/Textures/StartButton.StartButton
+[2020.11.23-22.49.44:346][ 86]LogContentValidation: Display: Validating Texture2D /Game/Textures/Sw2_1.Sw2_1
+[2020.11.23-22.49.44:346][ 86]LogContentValidation: Display: Validating Texture2D /Game/Textures/Sw2_2.Sw2_2
+[2020.11.23-22.49.44:346][ 86]LogContentValidation: Display: Validating Texture2D /Game/Textures/Sw2_3.Sw2_3
+[2020.11.23-22.49.44:346][ 86]LogContentValidation: Display: Validating Texture2D /Game/Textures/WH1.WH1
+[2020.11.23-22.49.44:346][ 86]LogContentValidation: Display: Validating Texture2D /Game/Textures/WH2.WH2
+[2020.11.23-22.49.44:346][ 86]LogContentValidation: Display: Validating Texture2D /Game/Textures/WH3.WH3
+[2020.11.23-22.49.44:346][ 86]LogContentValidation: Display: Validating Texture2D /Game/Textures/WH4.WH4
+[2020.11.23-22.49.44:346][ 86]LogContentValidation: Display: Validating Texture2D /Game/Textures/YES_Icon.YES_Icon
+[2020.11.23-22.49.44:346][ 86]LogContentValidation: Display: Validating Texture2D /Game/Backgrounds/sky_fc.sky_fc
+[2020.11.23-22.49.44:346][ 86]LogContentValidation: Display: Validating Texture2D /Game/Backgrounds/clouds_front_fc.clouds_front_fc
+[2020.11.23-22.49.44:346][ 86]LogContentValidation: Display: Validating Texture2D /Game/Backgrounds/clouds_front_t_fc.clouds_front_t_fc
+[2020.11.23-22.49.44:346][ 86]LogContentValidation: Display: Validating Texture2D /Game/Backgrounds/clouds_mid_fc.clouds_mid_fc
+[2020.11.23-22.49.44:346][ 86]LogContentValidation: Display: Validating Texture2D /Game/Backgrounds/clouds_mid_t_fc.clouds_mid_t_fc
+[2020.11.23-22.49.44:346][ 86]LogContentValidation: Display: Validating Texture2D /Game/Backgrounds/Coin-Drop-Background.Coin-Drop-Background
+[2020.11.23-22.49.44:346][ 86]LogContentValidation: Display: Validating Texture2D /Game/Backgrounds/D_11.D_11
+[2020.11.23-22.49.44:347][ 86]LogContentValidation: Display: Validating Texture2D /Game/Backgrounds/D_11_2.D_11_2
+[2020.11.23-22.49.44:347][ 86]LogContentValidation: Display: Validating Texture2D /Game/Backgrounds/D_12.D_12
+[2020.11.23-22.49.44:347][ 86]LogContentValidation: Display: Validating Texture2D /Game/Backgrounds/D_12_2.D_12_2
+[2020.11.23-22.49.44:347][ 86]LogContentValidation: Display: Validating Texture2D /Game/Backgrounds/far_mountains_fc.far_mountains_fc
+[2020.11.23-22.49.44:347][ 86]LogContentValidation: Display: Validating Texture2D /Game/Backgrounds/FullBoarder.FullBoarder
+[2020.11.23-22.49.44:347][ 86]LogContentValidation: Display: Validating Texture2D /Game/Backgrounds/grassy_mountains_2.grassy_mountains_2
+[2020.11.23-22.49.44:347][ 86]LogContentValidation: Display: Validating Texture2D /Game/Backgrounds/hill.hill
+[2020.11.23-22.49.44:347][ 86]LogContentValidation: Display: Validating Texture2D /Game/Backgrounds/InnerBG.InnerBG
+[2020.11.23-22.49.44:347][ 86]LogContentValidation: Display: Validating SoundWave /Game/Sounds/SFX-crystalcollect.SFX-crystalcollect
+[2020.11.23-22.49.44:347][ 86]LogContentValidation: Display: Validating SoundWave /Game/Sounds/spin1.spin1
+[2020.11.23-22.49.44:347][ 86]LogContentValidation: Display: Validating SoundWave /Game/Sounds/stonebang.stonebang
+[2020.11.23-22.49.44:347][ 86]LogContentValidation: Display: Validating SoundWave /Game/Sounds/takekey.takekey
+[2020.11.23-22.49.44:347][ 86]LogContentValidation: Display: Validating SoundWave /Game/Sounds/zoomin.zoomin
+[2020.11.23-22.49.44:347][ 86]LogContentValidation: Display: Validating SoundWave /Game/Sounds/zoomout.zoomout
+[2020.11.23-22.49.44:347][ 86]LogContentValidation: Display: Validating SoundWave /Game/Sounds/coin1.coin1
+[2020.11.23-22.49.44:347][ 86]LogContentValidation: Display: Validating SoundWave /Game/Sounds/coin2.coin2
+[2020.11.23-22.49.44:347][ 86]LogContentValidation: Display: Validating SoundWave /Game/Sounds/coin3.coin3
+[2020.11.23-22.49.44:347][ 86]LogContentValidation: Display: Validating SoundWave /Game/Sounds/crack1.crack1
+[2020.11.23-22.49.44:347][ 86]LogContentValidation: Display: Validating SoundWave /Game/Sounds/crack2.crack2
+[2020.11.23-22.49.44:347][ 86]LogContentValidation: Display: Validating SoundWave /Game/Sounds/crack3.crack3
+[2020.11.23-22.49.44:347][ 86]LogContentValidation: Display: Validating SoundWave /Game/Sounds/invclose.invclose
+[2020.11.23-22.49.44:347][ 86]LogContentValidation: Display: Validating SoundWave /Game/Sounds/invopen.invopen
+[2020.11.23-22.49.44:347][ 86]LogContentValidation: Display: Validating SoundWave /Game/Sounds/ms06.ms06
+[2020.11.23-22.49.44:347][ 86]LogContentValidation: Display: Validating SoundWave /Game/Sounds/ms13.ms13
+[2020.11.23-22.49.44:347][ 86]LogContentValidation: Display: Validating SoundWave /Game/Sounds/ms14.ms14
+[2020.11.23-22.49.44:347][ 86]LogContentValidation: Display: Validating SoundWave /Game/Sounds/ms21.ms21
+[2020.11.23-22.49.44:347][ 86]LogContentValidation: Display: Validating SoundWave /Game/Sounds/ms24.ms24
+[2020.11.23-22.49.44:347][ 86]LogContentValidation: Display: Validating SoundWave /Game/Sounds/ms27.ms27
+[2020.11.23-22.49.44:347][ 86]LogContentValidation: Display: Validating SoundWave /Game/Sounds/ms28.ms28
+[2020.11.23-22.53.50:066][716]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2020.11.23-22.53.50:215][720]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (StaticMeshComponent0)
+[2020.11.23-22.53.57:175][132]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2020.11.24-02.22.25:297][754]LogRenderer: Reallocating scene render targets to support 1208x564 Format 9 NumSamples 1 (Frame:18515).
+[2020.11.24-02.24.48:383][895]LogSlate: Took 0.008536 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2020.11.24-02.25.24:716][697]LogSlate: Window 'Pick Parent Class' being destroyed
+[2020.11.24-02.25.32:169][112]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Character/pawn_Player1.pawn_Player1
+[2020.11.24-02.25.32:499][112]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0007 seconds. Added 125 classes and 0 folders.
+[2020.11.24-02.25.33:668][113]LogRenderer: Reallocating scene render targets to support 1208x688 Format 9 NumSamples 1 (Frame:1).
+[2020.11.24-02.25.36:398][197]LogRenderer: Reallocating scene render targets to support 1208x696 Format 9 NumSamples 1 (Frame:84).
+[2020.11.24-02.25.36:523][199]LogRenderer: Reallocating scene render targets to support 1208x908 Format 9 NumSamples 1 (Frame:86).
+[2020.11.24-02.25.36:610][204]LogSlate: Window 'pawn_Player1' being destroyed
+[2020.11.24-02.25.59:548][437]Cmd: CLOSE_SLATE_MAINFRAME
+[2020.11.24-02.25.59:581][437]LogUObjectHash: Compacting FUObjectHashTables data took   2.02ms
+[2020.11.24-02.26.01:020][437]LogSlate: Window 'Save Content' being destroyed
+[2020.11.24-02.26.01:076][437]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Character/pawn_Player1" FILE="../../../../../../Kingdoms_Coin/Content/Character/pawn_Player1.uasset" SILENT=true
+[2020.11.24-02.26.01:101][437]LogSavePackage: Moving '../../../../../../Kingdoms_Coin/Saved/pawn_Player1DDC6EBEB4B7DDD054FC983A9D2D57881.tmp' to '../../../../../../Kingdoms_Coin/Content/Character/pawn_Player1.uasset'
+[2020.11.24-02.26.01:206][437]LogWorld: UWorld::CleanupWorld for World_5, bSessionEnded=true, bCleanupResources=true
+[2020.11.24-02.26.01:206][437]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.24-02.26.01:386][437]LogSlate: Window 'Kingdoms_Coin - Unreal Editor' being destroyed
+[2020.11.24-02.26.01:791][437]AssetCheck: New page: Asset Save: pawn_Player1
+[2020.11.24-02.26.01:791][437]LogContentValidation: Display: Validating Blueprint /Game/Character/pawn_Player1.pawn_Player1
+[2020.11.24-02.26.01:800][438]Cmd: QUIT_EDITOR
+[2020.11.24-02.26.01:800][438]LogCore: Engine exit requested (reason: UUnrealEdEngine::CloseEditor())
+[2020.11.24-02.26.01:842][438]LogCore: Engine exit requested (reason: EngineExit() was called; note: exit was already requested)
+[2020.11.24-02.26.01:943][438]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2020.11.24-02.26.02:005][438]LogExit: Preparing to exit.
+[2020.11.24-02.26.02:643][438]LogWorld: UWorld::CleanupWorld for World_3, bSessionEnded=true, bCleanupResources=true
+[2020.11.24-02.26.02:646][438]LogWorld: UWorld::CleanupWorld for World_4, bSessionEnded=true, bCleanupResources=true
+[2020.11.24-02.26.02:648][438]LogWorld: UWorld::CleanupWorld for World_2, bSessionEnded=true, bCleanupResources=true
+[2020.11.24-02.26.02:652][438]LogWorld: UWorld::CleanupWorld for World_1, bSessionEnded=true, bCleanupResources=true
+[2020.11.24-02.26.02:656][438]LogWorld: UWorld::CleanupWorld for World_0, bSessionEnded=true, bCleanupResources=true
+[2020.11.24-02.26.02:692][438]LogDemo: Cleaned up 0 splitscreen connections with owner deletion
+[2020.11.24-02.26.02:710][438]LogWorld: UWorld::CleanupWorld for None, bSessionEnded=true, bCleanupResources=true
+[2020.11.24-02.26.02:711][438]LogExit: Editor shut down
+[2020.11.24-02.26.02:711][438]LogExit: Transaction tracking system shut down
+[2020.11.24-02.26.02:884][438]LogAISub: UAISubsystem::~UAISubsystem AISubsystem (0000023C7368D3C0), frame # 69438
+[2020.11.24-02.26.02:884][438]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000023C735D51C0), frame # 69438
+[2020.11.24-02.26.02:884][438]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000023C73658800), frame # 69438
+[2020.11.24-02.26.02:891][438]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000023C70D1E480), frame # 69438
+[2020.11.24-02.26.02:891][438]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000023C091B7600), frame # 69438
+[2020.11.24-02.26.03:003][438]LogExit: Object subsystem successfully closed.
+[2020.11.24-02.26.03:033][438]LogShaderCompilers: Display: Shaders left to compile 0
+[2020.11.24-02.26.03:083][438]LogModuleManager: Shutting down and abandoning module BlueprintGraph (794)
+[2020.11.24-02.26.03:083][438]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (792)
+[2020.11.24-02.26.03:083][438]LogModuleManager: Shutting down and abandoning module SceneOutliner (790)
+[2020.11.24-02.26.03:083][438]LogModuleManager: Shutting down and abandoning module AddContentDialog (788)
+[2020.11.24-02.26.03:084][438]LogModuleManager: Shutting down and abandoning module WidgetCarousel (787)
+[2020.11.24-02.26.03:084][438]LogModuleManager: Shutting down and abandoning module EditorWidgets (784)
+[2020.11.24-02.26.03:084][438]LogModuleManager: Shutting down and abandoning module CollectionManager (782)
+[2020.11.24-02.26.03:084][438]LogModuleManager: Shutting down and abandoning module HierarchicalLODUtilities (780)
+[2020.11.24-02.26.03:084][438]LogModuleManager: Shutting down and abandoning module StatsViewer (778)
+[2020.11.24-02.26.03:084][438]LogModuleManager: Shutting down and abandoning module VirtualTexturingEditor (776)
+[2020.11.24-02.26.03:084][438]LogModuleManager: Shutting down and abandoning module FoliageEdit (774)
+[2020.11.24-02.26.03:084][438]LogModuleManager: Shutting down and abandoning module LandscapeEditor (772)
+[2020.11.24-02.26.03:084][438]LogModuleManager: Shutting down and abandoning module MeshPaintMode (770)
+[2020.11.24-02.26.03:085][438]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (768)
+[2020.11.24-02.26.03:085][438]LogModuleManager: Shutting down and abandoning module ActorPickerMode (766)
+[2020.11.24-02.26.03:085][438]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (764)
+[2020.11.24-02.26.03:085][438]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (762)
+[2020.11.24-02.26.03:085][438]LogModuleManager: Shutting down and abandoning module AutomationWorker (760)
+[2020.11.24-02.26.03:085][438]LogModuleManager: Shutting down and abandoning module SteamVREditor (758)
+[2020.11.24-02.26.03:085][438]LogModuleManager: Shutting down and abandoning module OculusMR (756)
+[2020.11.24-02.26.03:085][438]LogModuleManager: Shutting down and abandoning module GooglePADEditor (754)
+[2020.11.24-02.26.03:085][438]LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (752)
+[2020.11.24-02.26.03:085][438]LogModuleManager: Shutting down and abandoning module TemplateSequenceEditor (750)
+[2020.11.24-02.26.03:085][438]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (748)
+[2020.11.24-02.26.03:085][438]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (746)
+[2020.11.24-02.26.03:085][438]LogModuleManager: Shutting down and abandoning module ActorSequenceEditor (744)
+[2020.11.24-02.26.03:085][438]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (742)
+[2020.11.24-02.26.03:085][438]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (740)
+[2020.11.24-02.26.03:085][438]LogModuleManager: Shutting down and abandoning module WebMMediaFactory (738)
+[2020.11.24-02.26.03:085][438]LogModuleManager: Shutting down and abandoning module WebMMediaEditor (736)
+[2020.11.24-02.26.03:085][438]LogModuleManager: Shutting down and abandoning module WebMMedia (734)
+[2020.11.24-02.26.03:085][438]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (732)
+[2020.11.24-02.26.03:086][438]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (730)
+[2020.11.24-02.26.03:086][438]LogModuleManager: Shutting down and abandoning module SequenceRecorder (729)
+[2020.11.24-02.26.03:086][438]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (726)
+[2020.11.24-02.26.03:086][438]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (724)
+[2020.11.24-02.26.03:086][438]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (722)
+[2020.11.24-02.26.03:086][438]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (720)
+[2020.11.24-02.26.03:086][438]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (718)
+[2020.11.24-02.26.03:086][438]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (716)
+[2020.11.24-02.26.03:086][438]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (714)
+[2020.11.24-02.26.03:086][438]LogModuleManager: Shutting down and abandoning module MagicLeapMediaCodecFactory (712)
+[2020.11.24-02.26.03:086][438]LogModuleManager: Shutting down and abandoning module MagicLeapMediaFactory (710)
+[2020.11.24-02.26.03:086][438]LogModuleManager: Shutting down and abandoning module MagicLeapMediaEditor (708)
+[2020.11.24-02.26.03:086][438]LogModuleManager: Shutting down and abandoning module PlanarCut (706)
+[2020.11.24-02.26.03:086][438]LogModuleManager: Shutting down and abandoning module CharacterAI (704)
+[2020.11.24-02.26.03:086][438]LogModuleManager: Shutting down and abandoning module TextureAlignMode (702)
+[2020.11.24-02.26.03:086][438]LogModuleManager: Shutting down and abandoning module BspMode (700)
+[2020.11.24-02.26.03:086][438]LogModuleManager: Shutting down and abandoning module PlacementMode (699)
+[2020.11.24-02.26.03:086][438]LogModuleManager: Shutting down and abandoning module GeometryMode (696)
+[2020.11.24-02.26.03:086][438]LogModuleManager: Shutting down and abandoning module CameraShakePreviewer (694)
+[2020.11.24-02.26.03:087][438]LogModuleManager: Shutting down and abandoning module SmartSnapping (692)
+[2020.11.24-02.26.03:087][438]LogModuleManager: Shutting down and abandoning module SessionServices (690)
+[2020.11.24-02.26.03:087][438]LogModuleManager: Shutting down and abandoning module MeshPaint (688)
+[2020.11.24-02.26.03:087][438]LogModuleManager: Shutting down and abandoning module ViewportSnapping (686)
+[2020.11.24-02.26.03:087][438]LogModuleManager: Shutting down and abandoning module ViewportInteraction (684)
+[2020.11.24-02.26.03:087][438]LogModuleManager: Shutting down and abandoning module ClothPainter (682)
+[2020.11.24-02.26.03:087][438]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (681)
+[2020.11.24-02.26.03:087][438]LogModuleManager: Shutting down and abandoning module LogVisualizer (678)
+[2020.11.24-02.26.03:087][438]LogModuleManager: Shutting down and abandoning module IntroTutorials (676)
+[2020.11.24-02.26.03:087][438]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (675)
+[2020.11.24-02.26.03:087][438]LogModuleManager: Shutting down and abandoning module LuminPlatformEditor (672)
+[2020.11.24-02.26.03:087][438]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (670)
+[2020.11.24-02.26.03:087][438]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (668)
+[2020.11.24-02.26.03:087][438]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (667)
+[2020.11.24-02.26.04:692][438]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (664)
+[2020.11.24-02.26.04:692][438]LogModuleManager: Shutting down and abandoning module LuminRuntimeSettings (662)
+[2020.11.24-02.26.04:692][438]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (660)
+[2020.11.24-02.26.04:693][438]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (658)
+[2020.11.24-02.26.04:693][438]LogModuleManager: Shutting down and abandoning module TraceInsights (656)
+[2020.11.24-02.26.04:693][438]LogModuleManager: Shutting down and abandoning module TraceServices (655)
+[2020.11.24-02.26.04:693][438]LogModuleManager: Shutting down and abandoning module EditorInteractiveToolsFramework (652)
+[2020.11.24-02.26.04:693][438]LogModuleManager: Shutting down and abandoning module TimeManagementEditor (650)
+[2020.11.24-02.26.04:693][438]LogModuleManager: Shutting down and abandoning module InputBindingEditor (648)
+[2020.11.24-02.26.04:693][438]LogModuleManager: Shutting down and abandoning module MergeActors (646)
+[2020.11.24-02.26.04:693][438]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (644)
+[2020.11.24-02.26.04:693][438]LogModuleManager: Shutting down and abandoning module LocalizationService (643)
+[2020.11.24-02.26.04:693][438]LogModuleManager: Shutting down and abandoning module HardwareTargeting (640)
+[2020.11.24-02.26.04:693][438]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (638)
+[2020.11.24-02.26.04:693][438]LogModuleManager: Shutting down and abandoning module UndoHistory (636)
+[2020.11.24-02.26.04:693][438]LogModuleManager: Shutting down and abandoning module XmlParser (634)
+[2020.11.24-02.26.04:693][438]LogModuleManager: Shutting down and abandoning module Blutility (632)
+[2020.11.24-02.26.04:693][438]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (630)
+[2020.11.24-02.26.04:693][438]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (629)
+[2020.11.24-02.26.04:693][438]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (626)
+[2020.11.24-02.26.04:693][438]LogModuleManager: Shutting down and abandoning module SettingsEditor (624)
+[2020.11.24-02.26.04:693][438]LogModuleManager: Shutting down and abandoning module ProjectLauncher (622)
+[2020.11.24-02.26.04:693][438]LogModuleManager: Shutting down and abandoning module SessionFrontend (620)
+[2020.11.24-02.26.04:693][438]LogModuleManager: Shutting down and abandoning module ProfilerClient (618)
+[2020.11.24-02.26.04:693][438]LogModuleManager: Shutting down and abandoning module DeviceManager (616)
+[2020.11.24-02.26.04:693][438]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (615)
+[2020.11.24-02.26.04:725][438]LogModuleManager: Shutting down and abandoning module AutomationController (612)
+[2020.11.24-02.26.04:725][438]LogModuleManager: Shutting down and abandoning module AutomationWindow (610)
+[2020.11.24-02.26.04:725][438]LogModuleManager: Shutting down and abandoning module Layers (608)
+[2020.11.24-02.26.04:725][438]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (606)
+[2020.11.24-02.26.04:725][438]LogModuleManager: Shutting down and abandoning module DetailCustomizations (604)
+[2020.11.24-02.26.04:725][438]LogModuleManager: Shutting down and abandoning module PackagesDialog (602)
+[2020.11.24-02.26.04:725][438]LogModuleManager: Shutting down and abandoning module AnimationBlueprintEditor (600)
+[2020.11.24-02.26.04:726][438]LogModuleManager: Shutting down and abandoning module Persona (598)
+[2020.11.24-02.26.04:726][438]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (597)
+[2020.11.24-02.26.04:726][438]LogModuleManager: Shutting down and abandoning module AnimGraph (595)
+[2020.11.24-02.26.04:726][438]LogModuleManager: Shutting down and abandoning module Kismet (592)
+[2020.11.24-02.26.04:732][438]LogModuleManager: Shutting down and abandoning module KismetWidgets (591)
+[2020.11.24-02.26.04:732][438]LogModuleManager: Shutting down and abandoning module GraphEditor (588)
+[2020.11.24-02.26.04:732][438]LogModuleManager: Shutting down and abandoning module StructViewer (586)
+[2020.11.24-02.26.04:732][438]LogModuleManager: Shutting down and abandoning module ClassViewer (584)
+[2020.11.24-02.26.04:734][438]LogModuleManager: Shutting down and abandoning module Toolbox (582)
+[2020.11.24-02.26.04:734][438]LogModuleManager: Shutting down and abandoning module ModuleUI (580)
+[2020.11.24-02.26.04:734][438]LogModuleManager: Shutting down and abandoning module OutputLog (578)
+[2020.11.24-02.26.04:734][438]LogModuleManager: Shutting down and abandoning module GammaUI (576)
+[2020.11.24-02.26.04:734][438]LogModuleManager: Shutting down and abandoning module Documentation (574)
+[2020.11.24-02.26.04:734][438]LogModuleManager: Shutting down and abandoning module LiveCoding (572)
+[2020.11.24-02.26.04:734][438]LogModuleManager: Shutting down and abandoning module LevelSequence (570)
+[2020.11.24-02.26.04:734][438]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (568)
+[2020.11.24-02.26.04:734][438]LogModuleManager: Shutting down and abandoning module MovieScene (566)
+[2020.11.24-02.26.04:734][438]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (564)
+[2020.11.24-02.26.04:735][438]LogModuleManager: Shutting down and abandoning module LauncherPlatform (562)
+[2020.11.24-02.26.04:735][438]LogModuleManager: Shutting down and abandoning module AnalyticsET (560)
+[2020.11.24-02.26.04:735][438]LogModuleManager: Shutting down and abandoning module PortalServices (558)
+[2020.11.24-02.26.04:735][438]LogModuleManager: Shutting down and abandoning module PortalRpc (556)
+[2020.11.24-02.26.04:735][438]LogModuleManager: Shutting down and abandoning module MessagingRpc (554)
+[2020.11.24-02.26.04:735][438]LogModuleManager: Shutting down and abandoning module AudioMixerXAudio2 (552)
+[2020.11.24-02.26.04:735][438]LogModuleManager: Shutting down and abandoning module AudioMixerCore (551)
+[2020.11.24-02.26.04:735][438]LogModuleManager: Shutting down and abandoning module AIModule (548)
+[2020.11.24-02.26.04:735][438]LogModuleManager: Shutting down and abandoning module GameplayDebugger (547)
+[2020.11.24-02.26.04:735][438]LogModuleManager: Shutting down and abandoning module AITestSuite (545)
+[2020.11.24-02.26.04:735][438]LogModuleManager: Shutting down and abandoning module NavigationSystem (543)
+[2020.11.24-02.26.04:735][438]LogModuleManager: Shutting down and abandoning module ProfilerService (540)
+[2020.11.24-02.26.04:946][438]LogModuleManager: Shutting down and abandoning module TaskGraph (538)
+[2020.11.24-02.26.04:946][438]LogModuleManager: Shutting down and abandoning module ScreenshotTools (536)
+[2020.11.24-02.26.04:946][438]LogModuleManager: Shutting down and abandoning module SynthesisEditor (534)
+[2020.11.24-02.26.04:946][438]LogModuleManager: Shutting down and abandoning module Synthesis (532)
+[2020.11.24-02.26.04:946][438]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (530)
+[2020.11.24-02.26.04:946][438]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (528)
+[2020.11.24-02.26.04:946][438]LogModuleManager: Shutting down and abandoning module OculusEditor (526)
+[2020.11.24-02.26.04:946][438]LogModuleManager: Shutting down and abandoning module OculusInput (524)
+[2020.11.24-02.26.04:946][438]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (522)
+[2020.11.24-02.26.04:946][438]LogModuleManager: Shutting down and abandoning module GooglePAD (520)
+[2020.11.24-02.26.04:946][438]LogModuleManager: Shutting down and abandoning module EditableMesh (518)
+[2020.11.24-02.26.04:946][438]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (516)
+[2020.11.24-02.26.04:946][438]LogModuleManager: Shutting down and abandoning module CableComponent (514)
+[2020.11.24-02.26.04:946][438]LogModuleManager: Shutting down and abandoning module AudioCapture (512)
+[2020.11.24-02.26.04:946][438]LogModuleManager: Shutting down and abandoning module AudioCaptureRtAudio (511)
+[2020.11.24-02.26.04:946][438]LogModuleManager: Shutting down and abandoning module AssetTags (508)
+[2020.11.24-02.26.04:946][438]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (506)
+[2020.11.24-02.26.04:946][438]LogModuleManager: Shutting down and abandoning module AppleImageUtilsBlueprintSupport (504)
+[2020.11.24-02.26.04:946][438]LogModuleManager: Shutting down and abandoning module AppleImageUtils (502)
+[2020.11.24-02.26.04:946][438]LogModuleManager: Shutting down and abandoning module AndroidPermission (500)
+[2020.11.24-02.26.04:946][438]LogModuleManager: Shutting down and abandoning module NUTUnrealEngine4 (498)
+[2020.11.24-02.26.04:946][438]LogModuleManager: Shutting down and abandoning module NetcodeUnitTest (496)
+[2020.11.24-02.26.04:947][438]LogModuleManager: Shutting down and abandoning module TemplateSequence (494)
+[2020.11.24-02.26.04:947][438]LogModuleManager: Shutting down and abandoning module MovieRenderPipelineEditor (492)
+[2020.11.24-02.26.04:947][438]LogModuleManager: Shutting down and abandoning module MovieRenderPipelineRenderPasses (490)
+[2020.11.24-02.26.04:947][438]LogModuleManager: Shutting down and abandoning module MovieRenderPipelineSettings (488)
+[2020.11.24-02.26.04:947][438]LogModuleManager: Shutting down and abandoning module MovieRenderPipelineCore (486)
+[2020.11.24-02.26.04:947][438]LogModuleManager: Shutting down and abandoning module ImageWriteQueue (485)
+[2020.11.24-02.26.04:948][438]LogModuleManager: Shutting down and abandoning module MeshPaintingToolset (482)
+[2020.11.24-02.26.04:948][438]LogModuleManager: Shutting down and abandoning module MeshPaintEditorMode (480)
+[2020.11.24-02.26.04:949][438]LogModuleManager: Shutting down and abandoning module MediaCompositing (478)
+[2020.11.24-02.26.04:949][438]LogModuleManager: Shutting down and abandoning module ImgMedia (476)
+[2020.11.24-02.26.04:949][438]LogModuleManager: Shutting down and abandoning module MagicLeapSharedWorld (474)
+[2020.11.24-02.26.04:949][438]LogModuleManager: Shutting down and abandoning module MagicLeapLightEstimation (472)
+[2020.11.24-02.26.04:949][438]LogModuleManager: Shutting down and abandoning module MagicLeapHelperVulkan (470)
+[2020.11.24-02.26.04:949][438]LogModuleManager: Shutting down and abandoning module MagicLeapHelperOpenGL (468)
+[2020.11.24-02.26.04:949][438]LogModuleManager: Shutting down and abandoning module MagicLeapAudio (466)
+[2020.11.24-02.26.04:949][438]LogModuleManager: Shutting down and abandoning module NiagaraEditorWidgets (464)
+[2020.11.24-02.26.04:949][438]LogModuleManager: Shutting down and abandoning module MeshSolverUtilities (462)
+[2020.11.24-02.26.04:949][438]LogModuleManager: Shutting down and abandoning module MeshConversion (460)
+[2020.11.24-02.26.04:949][438]LogModuleManager: Shutting down and abandoning module DynamicMesh (458)
+[2020.11.24-02.26.04:949][438]LogModuleManager: Shutting down and abandoning module GeometryAlgorithms (456)
+[2020.11.24-02.26.04:949][438]LogModuleManager: Shutting down and abandoning module GeometricObjects (454)
+[2020.11.24-02.26.04:949][438]LogModuleManager: Shutting down and abandoning module GeometryCollectionTracks (452)
+[2020.11.24-02.26.04:949][438]LogModuleManager: Shutting down and abandoning module GeometryCollectionSequencer (451)
+[2020.11.24-02.26.04:949][438]LogModuleManager: Shutting down and abandoning module GeometryCollectionEditor (448)
+[2020.11.24-02.26.04:949][438]LogModuleManager: Shutting down and abandoning module GeometryCacheTracks (446)
+[2020.11.24-02.26.04:949][438]LogModuleManager: Shutting down and abandoning module GeometryCacheSequencer (444)
+[2020.11.24-02.26.04:949][438]LogModuleManager: Shutting down and abandoning module ChaosSolverEditor (442)
+[2020.11.24-02.26.04:949][438]LogModuleManager: Shutting down and abandoning module ChaosNiagara (440)
+[2020.11.24-02.26.04:949][438]LogModuleManager: Shutting down and abandoning module FractureEditor (438)
+[2020.11.24-02.26.04:949][438]LogModuleManager: Shutting down and abandoning module ChaosClothEditor (436)
+[2020.11.24-02.26.04:949][438]LogModuleManager: Shutting down and abandoning module ChaosCloth (434)
+[2020.11.24-02.26.04:949][438]LogModuleManager: Shutting down and abandoning module BackChannel (432)
+[2020.11.24-02.26.04:949][438]LogModuleManager: Shutting down and abandoning module AutomationUtilsEditor (430)
+[2020.11.24-02.26.04:949][438]LogModuleManager: Shutting down and abandoning module AutomationUtils (428)
+[2020.11.24-02.26.04:949][438]LogModuleManager: Shutting down and abandoning module AlembicImporter (426)
+[2020.11.24-02.26.04:949][438]LogModuleManager: Shutting down and abandoning module AlembicLibrary (425)
+[2020.11.24-02.26.04:949][438]LogModuleManager: Shutting down and abandoning module GeometryCache (424)
+[2020.11.24-02.26.04:949][438]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (423)
+[2020.11.24-02.26.04:949][438]LogModuleManager: Shutting down and abandoning module VariantManagerContentEditor (418)
+[2020.11.24-02.26.04:949][438]LogModuleManager: Shutting down and abandoning module DatasmithContentEditor (416)
+[2020.11.24-02.26.04:949][438]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (414)
+[2020.11.24-02.26.04:949][438]LogModuleManager: Shutting down and abandoning module PluginBrowser (412)
+[2020.11.24-02.26.04:949][438]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (410)
+[2020.11.24-02.26.04:949][438]LogModuleManager: Shutting down and abandoning module MaterialAnalyzer (408)
+[2020.11.24-02.26.04:949][438]LogModuleManager: Shutting down and abandoning module EditorScriptingUtilities (406)
+[2020.11.24-02.26.04:949][438]LogModuleManager: Shutting down and abandoning module CurveEditorTools (404)
+[2020.11.24-02.26.04:949][438]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (402)
+[2020.11.24-02.26.04:949][438]LogModuleManager: Shutting down and abandoning module CryptoKeys (400)
+[2020.11.24-02.26.04:949][438]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (398)
+[2020.11.24-02.26.04:949][438]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (396)
+[2020.11.24-02.26.04:949][438]LogModuleManager: Shutting down and abandoning module UObjectPlugin (394)
+[2020.11.24-02.26.04:950][438]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (392)
+[2020.11.24-02.26.04:950][438]LogModuleManager: Shutting down and abandoning module RiderSourceCodeAccess (390)
+[2020.11.24-02.26.04:950][438]LogModuleManager: Shutting down and abandoning module PlasticSourceControl (388)
+[2020.11.24-02.26.04:950][438]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (386)
+[2020.11.24-02.26.04:950][438]LogModuleManager: Shutting down and abandoning module GitSourceControl (384)
+[2020.11.24-02.26.04:950][438]LogModuleManager: Shutting down and abandoning module SourceControl (383)
+[2020.11.24-02.26.04:950][438]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (380)
+[2020.11.24-02.26.04:950][438]LogModuleManager: Shutting down and abandoning module AnimationSharingEd (378)
+[2020.11.24-02.26.04:950][438]LogModuleManager: Shutting down and abandoning module ActorLayerUtilitiesEditor (376)
+[2020.11.24-02.26.04:950][438]LogModuleManager: Shutting down and abandoning module ActorLayerUtilities (374)
+[2020.11.24-02.26.04:950][438]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (372)
+[2020.11.24-02.26.04:950][438]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (370)
+[2020.11.24-02.26.04:950][438]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (368)
+[2020.11.24-02.26.04:950][438]LogModuleManager: Shutting down and abandoning module Paper2DEditor (366)
+[2020.11.24-02.26.04:950][438]LogModuleManager: Shutting down and abandoning module SoundFields (364)
+[2020.11.24-02.26.04:950][438]LogModuleManager: Shutting down and abandoning module SignificanceManager (362)
+[2020.11.24-02.26.04:950][438]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (360)
+[2020.11.24-02.26.04:950][438]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (358)
+[2020.11.24-02.26.04:950][438]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (354)
+[2020.11.24-02.26.04:950][438]LogModuleManager: Shutting down and abandoning module ActorSequence (352)
+[2020.11.24-02.26.04:950][438]LogModuleManager: Shutting down and abandoning module UdpMessaging (350)
+[2020.11.24-02.26.05:051][438]LogModuleManager: Shutting down and abandoning module TcpMessaging (348)
+[2020.11.24-02.26.05:151][438]LogModuleManager: Shutting down and abandoning module MagicLeapARPin (346)
+[2020.11.24-02.26.05:151][438]LogModuleManager: Shutting down and abandoning module MagicLeapHandMeshing (344)
+[2020.11.24-02.26.05:151][438]LogModuleManager: Shutting down and abandoning module MagicLeapSecureStorage (342)
+[2020.11.24-02.26.05:151][438]LogModuleManager: Shutting down and abandoning module MagicLeapPrivileges (340)
+[2020.11.24-02.26.05:151][438]LogModuleManager: Shutting down and abandoning module MagicLeapPlanes (338)
+[2020.11.24-02.26.05:151][438]LogMagicLeapPlanes: Planes tracker already destroyed.
+[2020.11.24-02.26.05:151][438]LogModuleManager: Shutting down and abandoning module MagicLeapImageTracker (336)
+[2020.11.24-02.26.05:151][438]LogModuleManager: Shutting down and abandoning module MagicLeapIdentity (334)
+[2020.11.24-02.26.05:151][438]LogModuleManager: Shutting down and abandoning module MagicLeapHandTracking (332)
+[2020.11.24-02.26.05:151][438]LogModuleManager: Shutting down and abandoning module MagicLeapEyeTracker (330)
+[2020.11.24-02.26.05:151][438]LogModuleManager: Shutting down and abandoning module MagicLeapController (328)
+[2020.11.24-02.26.05:151][438]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2020.11.24-02.26.05:151][438]LogModuleManager: Shutting down and abandoning module MagicLeapARPinImpl (326)
+[2020.11.24-02.26.05:151][438]LogModuleManager: Shutting down and abandoning module MagicLeapAR (324)
+[2020.11.24-02.26.05:151][438]LogModuleManager: Shutting down and abandoning module AugmentedReality (323)
+[2020.11.24-02.26.05:151][438]LogModuleManager: Shutting down and abandoning module NiagaraAnimNotifies (320)
+[2020.11.24-02.26.05:151][438]LogModuleManager: Shutting down and abandoning module Niagara (318)
+[2020.11.24-02.26.05:151][438]LogModuleManager: Shutting down and abandoning module SignalProcessing (317)
+[2020.11.24-02.26.05:151][438]LogModuleManager: Shutting down and abandoning module NiagaraEditor (315)
+[2020.11.24-02.26.05:152][438]LogModuleManager: Shutting down and abandoning module NiagaraCore (312)
+[2020.11.24-02.26.05:152][438]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (310)
+[2020.11.24-02.26.05:152][438]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (308)
+[2020.11.24-02.26.05:152][438]LogModuleManager: Shutting down and abandoning module FacialAnimation (306)
+[2020.11.24-02.26.05:152][438]LogModuleManager: Shutting down and abandoning module DataValidation (304)
+[2020.11.24-02.26.05:152][438]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (302)
+[2020.11.24-02.26.05:152][438]LogModuleManager: Shutting down and abandoning module LevelEditor (301)
+[2020.11.24-02.26.05:153][438]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (300)
+[2020.11.24-02.26.05:153][438]LogModuleManager: Shutting down and abandoning module CommonMenuExtensions (298)
+[2020.11.24-02.26.05:154][438]LogModuleManager: Shutting down and abandoning module MainFrame (296)
+[2020.11.24-02.26.05:154][438]LogModuleManager: Shutting down and abandoning module HotReload (295)
+[2020.11.24-02.26.05:154][438]LogModuleManager: Shutting down and abandoning module ToolMenus (291)
+[2020.11.24-02.26.05:154][438]LogModuleManager: Shutting down and abandoning module TreeMap (289)
+[2020.11.24-02.26.05:154][438]LogModuleManager: Shutting down and abandoning module AnimationSharing (286)
+[2020.11.24-02.26.05:154][438]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (284)
+[2020.11.24-02.26.05:154][438]LogModuleManager: Shutting down and abandoning module Paper2D (282)
+[2020.11.24-02.26.05:154][438]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (280)
+[2020.11.24-02.26.05:160][438]LogModuleManager: Shutting down and abandoning module WebMMoviePlayer (278)
+[2020.11.24-02.26.05:160][438]LogModuleManager: Shutting down and abandoning module NetworkReplayStreaming (276)
+[2020.11.24-02.26.05:160][438]LogModuleManager: Shutting down and abandoning module PacketHandler (274)
+[2020.11.24-02.26.05:160][438]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (272)
+[2020.11.24-02.26.05:160][438]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntimeNv (270)
+[2020.11.24-02.26.05:160][438]LogModuleManager: Shutting down and abandoning module MediaAssets (268)
+[2020.11.24-02.26.05:160][438]LogModuleManager: Shutting down and abandoning module Overlay (266)
+[2020.11.24-02.26.05:160][438]LogModuleManager: Shutting down and abandoning module OverlayEditor (265)
+[2020.11.24-02.26.05:160][438]LogModuleManager: Shutting down and abandoning module VREditor (262)
+[2020.11.24-02.26.05:161][438]LogModuleManager: Shutting down and abandoning module StringTableEditor (260)
+[2020.11.24-02.26.05:161][438]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (258)
+[2020.11.24-02.26.05:161][438]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (256)
+[2020.11.24-02.26.05:161][438]LogModuleManager: Shutting down and abandoning module FunctionalTesting (254)
+[2020.11.24-02.26.05:161][438]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (252)
+[2020.11.24-02.26.05:161][438]LogModuleManager: Shutting down and abandoning module UMG (250)
+[2020.11.24-02.26.05:161][438]LogModuleManager: Shutting down and abandoning module UMGEditor (249)
+[2020.11.24-02.26.05:161][438]LogModuleManager: Shutting down and abandoning module MessageLog (247)
+[2020.11.24-02.26.05:161][438]LogModuleManager: Shutting down and abandoning module MaterialEditor (245)
+[2020.11.24-02.26.05:161][438]LogModuleManager: Shutting down and abandoning module ContentBrowser (244)
+[2020.11.24-02.26.05:162][438]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (243)
+[2020.11.24-02.26.05:163][438]LogModuleManager: Shutting down and abandoning module SlateReflector (236)
+[2020.11.24-02.26.05:163][438]LogModuleManager: Shutting down and abandoning module Slate (234)
+[2020.11.24-02.26.05:163][438]LogModuleManager: Shutting down and abandoning module SlateCore (232)
+[2020.11.24-02.26.05:163][438]LogModuleManager: Shutting down and abandoning module LandscapeEditorUtilities (230)
+[2020.11.24-02.26.05:163][438]LogModuleManager: Shutting down and abandoning module UnrealEd (228)
+[2020.11.24-02.26.05:163][438]LogModuleManager: Shutting down and abandoning module MRMesh (226)
+[2020.11.24-02.26.05:163][438]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (224)
+[2020.11.24-02.26.05:163][438]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (222)
+[2020.11.24-02.26.05:163][438]LogModuleManager: Shutting down and abandoning module XAudio2 (220)
+[2020.11.24-02.26.05:163][438]LogModuleManager: Shutting down and abandoning module Networking (218)
+[2020.11.24-02.26.05:163][438]LogModuleManager: Shutting down and abandoning module Core (216)
+[2020.11.24-02.26.05:163][438]LogModuleManager: Shutting down and abandoning module MovieSceneTools (214)
+[2020.11.24-02.26.05:163][438]LogModuleManager: Shutting down and abandoning module CurveEditor (213)
+[2020.11.24-02.26.05:163][438]LogModuleManager: Shutting down and abandoning module Sequencer (211)
+[2020.11.24-02.26.05:164][438]LogModuleManager: Shutting down and abandoning module EditorStyle (210)
+[2020.11.24-02.26.05:165][438]LogModuleManager: Shutting down and abandoning module KismetCompiler (206)
+[2020.11.24-02.26.05:165][438]LogModuleManager: Shutting down and abandoning module MeshBuilder (204)
+[2020.11.24-02.26.05:165][438]LogModuleManager: Shutting down and abandoning module MeshUtilities (202)
+[2020.11.24-02.26.05:165][438]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (201)
+[2020.11.24-02.26.05:165][438]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (200)
+[2020.11.24-02.26.05:165][438]LogModuleManager: Shutting down and abandoning module MeshBoneReduction (199)
+[2020.11.24-02.26.05:165][438]LogModuleManager: Shutting down and abandoning module SkeletalMeshReduction (197)
+[2020.11.24-02.26.05:165][438]LogModuleManager: Shutting down and abandoning module ProxyLODMeshReduction (195)
+[2020.11.24-02.26.05:165][438]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (193)
+[2020.11.24-02.26.05:165][438]LogModuleManager: Shutting down and abandoning module MaterialBaking (189)
+[2020.11.24-02.26.05:165][438]LogModuleManager: Shutting down and abandoning module NullInstallBundleManager (184)
+[2020.11.24-02.26.05:165][438]LogModuleManager: Shutting down and abandoning module DerivedDataCache (182)
+[2020.11.24-02.26.05:165][438]LogModuleManager: Shutting down and abandoning module XGEController (180)
+[2020.11.24-02.26.05:165][438]LogXGEController: Cleaning working directory: C:/Users/NewUser/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2020.11.24-02.26.05:165][438]LogModuleManager: Shutting down and abandoning module TargetPlatform (178)
+[2020.11.24-02.26.05:165][438]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (177)
+[2020.11.24-02.26.05:165][438]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (175)
+[2020.11.24-02.26.05:165][438]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (173)
+[2020.11.24-02.26.05:165][438]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (171)
+[2020.11.24-02.26.05:165][438]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (169)
+[2020.11.24-02.26.05:165][438]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (167)
+[2020.11.24-02.26.05:165][438]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (165)
+[2020.11.24-02.26.05:165][438]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (163)
+[2020.11.24-02.26.05:165][438]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (161)
+[2020.11.24-02.26.05:165][438]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (159)
+[2020.11.24-02.26.05:165][438]LogModuleManager: Shutting down and abandoning module ImageWrapper (158)
+[2020.11.24-02.26.05:165][438]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (155)
+[2020.11.24-02.26.05:165][438]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (153)
+[2020.11.24-02.26.05:165][438]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (151)
+[2020.11.24-02.26.05:166][438]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (149)
+[2020.11.24-02.26.05:166][438]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (147)
+[2020.11.24-02.26.05:166][438]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (145)
+[2020.11.24-02.26.05:166][438]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (143)
+[2020.11.24-02.26.05:166][438]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (141)
+[2020.11.24-02.26.05:166][438]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (139)
+[2020.11.24-02.26.05:167][438]LogModuleManager: Shutting down and abandoning module LuminTargetPlatform (137)
+[2020.11.24-02.26.05:169][438]LogModuleManager: Shutting down and abandoning module LinuxAArch64ServerTargetPlatform (135)
+[2020.11.24-02.26.05:169][438]LogModuleManager: Shutting down and abandoning module LinuxAArch64ClientTargetPlatform (133)
+[2020.11.24-02.26.05:169][438]LogModuleManager: Shutting down and abandoning module LinuxAArch64NoEditorTargetPlatform (131)
+[2020.11.24-02.26.05:169][438]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (129)
+[2020.11.24-02.26.05:169][438]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (127)
+[2020.11.24-02.26.05:169][438]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (125)
+[2020.11.24-02.26.05:169][438]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (123)
+[2020.11.24-02.26.05:169][438]LogModuleManager: Shutting down and abandoning module Messaging (121)
+[2020.11.24-02.26.05:169][438]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (119)
+[2020.11.24-02.26.05:170][438]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (117)
+[2020.11.24-02.26.05:176][438]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (115)
+[2020.11.24-02.26.05:176][438]LogModuleManager: Shutting down and abandoning module InputCore (112)
+[2020.11.24-02.26.05:176][438]LogModuleManager: Shutting down and abandoning module Settings (110)
+[2020.11.24-02.26.05:176][438]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (108)
+[2020.11.24-02.26.05:176][438]LogModuleManager: Shutting down and abandoning module PhysXCooking (106)
+[2020.11.24-02.26.05:176][438]LogModuleManager: Shutting down and abandoning module ChaosSolvers (104)
+[2020.11.24-02.26.05:176][438]LogModuleManager: Shutting down and abandoning module FieldSystemEngine (103)
+[2020.11.24-02.26.05:176][438]LogModuleManager: Shutting down and abandoning module Chaos (100)
+[2020.11.24-02.26.05:176][438]LogModuleManager: Shutting down and abandoning module WindowsPlatformFeatures (98)
+[2020.11.24-02.26.05:176][438]LogModuleManager: Shutting down and abandoning module GameplayMediaEncoder (97)
+[2020.11.24-02.26.05:176][438]LogModuleManager: Shutting down and abandoning module AVEncoder (96)
+[2020.11.24-02.26.05:176][438]LogModuleManager: Shutting down and abandoning module SteamVRInputDevice (92)
+[2020.11.24-02.26.05:176][438]LogModuleManager: Shutting down and abandoning module SteamVRInput (90)
+[2020.11.24-02.26.05:176][438]LogModuleManager: Shutting down and abandoning module SteamVR (88)
+[2020.11.24-02.26.05:176][438]LogHMD: Freeing OpenVRDLLHandle.
+[2020.11.24-02.26.05:176][438]LogModuleManager: Shutting down and abandoning module OculusHMD (86)
+[2020.11.24-02.26.05:176][438]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (84)
+[2020.11.24-02.26.05:176][438]LogModuleManager: Shutting down and abandoning module LauncherChunkInstaller (82)
+[2020.11.24-02.26.05:176][438]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (80)
+[2020.11.24-02.26.05:176][438]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (76)
+[2020.11.24-02.26.05:178][438]LogModuleManager: Shutting down and abandoning module XMPP (71)
+[2020.11.24-02.26.05:178][438]LogModuleManager: Shutting down and abandoning module WebSockets (70)
+[2020.11.24-02.26.05:213][438]LogModuleManager: Shutting down and abandoning module HTTP (67)
+[2020.11.24-02.26.05:213][438]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2020.11.24-02.26.05:213][438]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BC90A44D3-453A-24B4-A2B8-CF8353BEE988%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.4-14469661%2B%2B%2BUE4%2BRelease-4.25&UserID=1167100241b9d129a27fb2a46da6ad22%7Cc962805cfd964f64a4092bc994eb3c5e%7Cf31f5c0a-6524-4407-963b-e9cb2ec952bc&AppEnvironment=datacollector-source&UploadType=eteventstream] refs=[1] status=Processing
+[2020.11.24-02.26.05:230][438]LogModuleManager: Shutting down and abandoning module SSL (66)
+[2020.11.24-02.26.05:232][438]LogModuleManager: Shutting down and abandoning module WmfMedia (62)
+[2020.11.24-02.26.05:235][438]LogModuleManager: Shutting down and abandoning module Media (61)
+[2020.11.24-02.26.05:236][438]LogModuleManager: Shutting down and abandoning module MagicLeap (58)
+[2020.11.24-02.26.05:236][438]LogModuleManager: Shutting down and abandoning module NiagaraVertexFactories (56)
+[2020.11.24-02.26.05:236][438]LogModuleManager: Shutting down and abandoning module NiagaraShader (54)
+[2020.11.24-02.26.05:236][438]LogModuleManager: Shutting down and abandoning module VariantManagerContent (52)
+[2020.11.24-02.26.05:236][438]LogModuleManager: Shutting down and abandoning module DatasmithContent (50)
+[2020.11.24-02.26.05:237][438]LogModuleManager: Shutting down and abandoning module AISupportModule (48)
+[2020.11.24-02.26.05:237][438]LogModuleManager: Shutting down and abandoning module DesktopPlatform (46)
+[2020.11.24-02.26.05:237][438]LogModuleManager: Shutting down and abandoning module PlatformCryptoOpenSSL (44)
+[2020.11.24-02.26.05:237][438]LogModuleManager: Shutting down and abandoning module PlatformCryptoTypes (42)
+[2020.11.24-02.26.05:237][438]LogModuleManager: Shutting down and abandoning module PlatformCrypto (40)
+[2020.11.24-02.26.05:237][438]LogModuleManager: Shutting down and abandoning module AnimationModifiers (38)
+[2020.11.24-02.26.05:237][438]LogModuleManager: Shutting down and abandoning module PropertyEditor (37)
+[2020.11.24-02.26.05:237][438]LogModuleManager: Shutting down and abandoning module AudioEditor (34)
+[2020.11.24-02.26.05:238][438]LogModuleManager: Shutting down and abandoning module TextureCompressor (32)
+[2020.11.24-02.26.05:238][438]LogModuleManager: Shutting down and abandoning module RenderCore (30)
+[2020.11.24-02.26.05:238][438]LogModuleManager: Shutting down and abandoning module Landscape (28)
+[2020.11.24-02.26.05:238][438]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (26)
+[2020.11.24-02.26.05:239][438]LogModuleManager: Shutting down and abandoning module OpenGLDrv (24)
+[2020.11.24-02.26.05:239][438]LogModuleManager: Shutting down and abandoning module D3D11RHI (22)
+[2020.11.24-02.26.05:239][438]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (20)
+[2020.11.24-02.26.05:239][438]LogModuleManager: Shutting down and abandoning module Renderer (18)
+[2020.11.24-02.26.05:239][438]LogModuleManager: Shutting down and abandoning module Engine (16)
+[2020.11.24-02.26.05:239][438]LogModuleManager: Shutting down and abandoning module CoreUObject (14)
+[2020.11.24-02.26.05:239][438]LogModuleManager: Shutting down and abandoning module NetworkFile (12)
+[2020.11.24-02.26.05:239][438]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (10)
+[2020.11.24-02.26.05:239][438]LogModuleManager: Shutting down and abandoning module StreamingFile (8)
+[2020.11.24-02.26.05:239][438]LogModuleManager: Shutting down and abandoning module SandboxFile (6)
+[2020.11.24-02.26.05:239][438]LogModuleManager: Shutting down and abandoning module PakFile (4)
+[2020.11.24-02.26.05:239][438]LogModuleManager: Shutting down and abandoning module RSA (3)
+[2020.11.24-02.26.05:239][438]LogContentStreaming: Display: There are 1 unreleased StreamingManagers
+[2020.11.24-02.26.05:246][438]LogD3D11RHI: Shutdown
+[2020.11.24-02.26.05:246][438]LogD3D11RHI: CleanupD3DDevice
+[2020.11.24-02.26.05:256][438]LogExit: Exiting.
+[2020.11.24-02.26.05:309][438]Log file closed, 11/23/20 20:26:05
